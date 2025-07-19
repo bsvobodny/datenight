@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+header h1::before,
+header h1::after {
+  content: '💕';
+  font-size: 4rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  animation: pulse 2s infinite;
+}
+
+.subtitle {
+  color: var(--foreground);
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.center-container {
+  position: relative;
+}
+
+.control {
+  position: absolute;
+  display: flex;
+  place-items: center;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* margin-top: 2rem; */
+}
+
+.control button {
+  padding: 1.5rem;
+}
+
+footer p {
+  color: #888;
+}
