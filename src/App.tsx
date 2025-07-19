@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
-import './App.css';
-import CardList from './CardList';
+import { useEffect, useState } from "react";
+import "./App.css";
+import CardList from "./CardList";
 import {
   allActivities,
   randomActivityFromCategory,
   type Activity,
-} from './activities.ts';
+} from "./activities.ts";
 
 function App() {
   const [activities, setActivities] = useState<Activity[]>([]);
@@ -20,27 +20,32 @@ function App() {
     setActivities(newActivities);
   };
 
-  const nextActivity = (time = 3000) => {
-    setTimeout(() => selectActivity(), time);
-  };
-
   const reset = () => {
     setActivities([]);
   };
 
   const startNightActivities = () => {
     reset();
-    nextActivity(500);
+    selectActivity();
   };
 
-  useEffect(() => {
-    if (activities.length > 0 && activities.length < 4) {
-      nextActivity();
+  const getActionContent = () => {
+    switch (activities.length) {
+      case 0:
+        return "✨";
+      case 1:
+        return "🧨";
+      case 2:
+        return "❤️‍🔥";
+      case 3:
+        return "🔥";
+      default:
+        return "↪️";
     }
-  }, [activities]);
+  };
 
   return (
-    <>
+    <main>
       <header>
         <h1>Cupion</h1>
         <p className="subtitle">
@@ -53,15 +58,14 @@ function App() {
           selectedActivities={activities}
         />
         <div className="control">
-          <button onClick={startNightActivities}>✨</button>
+          <button onClick={startNightActivities}>{getActionContent()}</button>
         </div>
       </div>
       <footer>
-        <p className="read-the-docs">
-          Créez des souvenirs inoubliables ensemble
-        </p>
+        <p>Créez des souvenirs inoubliables ensemble</p>
+        <small>©️ Benjamin Svobodny</small>
       </footer>
-    </>
+    </main>
   );
 }
 

@@ -9,7 +9,6 @@
 
 .card:hover {
   filter: drop-shadow(0 0 2rem #646cffaa);
-  transform: translate(-0.5rem, -0.5rem);
 }
 
 .card .card-title {
