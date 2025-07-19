@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import CardList from "./CardList";
 import {
@@ -25,8 +25,11 @@ function App() {
   };
 
   const startNightActivities = () => {
-    reset();
-    selectActivity();
+    if(activities.length <4) {
+      selectActivity();
+    }else {
+      reset();
+    }
   };
 
   const getActionContent = () => {
