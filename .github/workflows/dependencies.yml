@@ -1,0 +1,69 @@
+# .github/workflows/dependencies.yml
+name: Gestion des Dépendances
+
+on:
+    schedule:
+        # Vérification hebdomadaire le lundi à 9h
+        - cron: '0 9 * * 1'
+    workflow_dispatch:
+
+jobs:
+    audit:
+        name: Audit de Sécurité
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout du code
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '20'
+                  cache: 'npm'
+
+            - name: Audit de sécurité npm
+              run: npm audit --audit-level=moderate
+
+            - name: Vérification des licences
+              run: npx license-checker --onlyAllow 'MIT;Apache-2.0;BSD-2-Clause;BSD-3-Clause;ISC'
+
+    update-dependencies:
+        name: Mise à Jour des Dépendances
+        runs-on: ubuntu-latest
+        if: github.event_name == 'workflow_dispatch'
+
+        steps:
+            - name: Checkout du code
+              uses: actions/checkout@v4
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '20'
+                  cache: 'npm'
+
+            - name: Mise à jour des dépendances
+              run: |
+                  npx npm-check-updates -u
+                  npm install
+
+            - name: Exécution des tests
+              run: |
+                  npm run test
+                  npm run build
+
+            - name: Création de la Pull Request
+              uses: peter-evans/create-pull-request@v5
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  commit-message: 'chore: mise à jour des dépendances'
+                  title: 'Mise à jour automatique des dépendances'
+                  body: |
+                      Mise à jour automatique des dépendances générée par GitHub Actions.
+
+                      Vérifiez que tous les tests passent avant de merger.
+                  branch: update-dependencies
+                  delete-branch: true

@@ -1,0 +1,17 @@
+
+
+.subtitle {
+  color: var(--foreground);
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.control {
+  position: absolute;
+}
+
+.control button {
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+

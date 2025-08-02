@@ -1421,18 +1421,33 @@ export const allActivities = {
 };
 
 export const randomActivityFromCategory = (categoryNumber: number) => {
-  const subCategories = Object.values(allActivities.categories)[categoryNumber]
-    .subCategories;
-  const flatActivities: Activity[] = Object.values(subCategories).reduce(
-    (list: Activity[], sub) => [
-      ...list,
-      ...sub.activities.reduce((acc: Activity[], a) => [...acc, a], []),
-    ],
-    []
-  );
-  // console.log(flatActivities);
+
+   const flatActivities: Activity[] = Object.values(Object.values(allActivities.categories)[categoryNumber]
+    .subCategories).flatMap((sub) => sub.activities).filter((activity) => {
+    const disabledActivities = getDisabledActivities();
+    return !disabledActivities.includes(activity.id);
+  });
 
   const i = Math.floor(Math.random() * flatActivities.length);
-  // console.log(i);
+
   return flatActivities[i];
 };
+
+export const flatActivities = () => {
+  return Object.values(allActivities.categories).flatMap((category) =>
+    Object.values(category.subCategories).flatMap((sub) => sub.activities)
+  );
+};
+
+export const storeDisabledActivities = (activityIds: string[]) => {
+  const newDisabledActivities = [ ...activityIds];
+  localStorage.setItem(
+    'cupionDisabledActivities',
+    JSON.stringify(newDisabledActivities)
+  );
+}
+
+export const getDisabledActivities = () => {
+  const storedActivities = localStorage.getItem('cupionDisabledActivities');
+  return storedActivities ? JSON.parse(storedActivities) : [];
+}
