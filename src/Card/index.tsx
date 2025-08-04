@@ -6,7 +6,7 @@ import './style.css';
 type Props = {
   label: string;
   activity?: Activity;
-  className?: String;
+  className?: string;
 };
 
 const Card = ({ label, activity, className }: Props) => {

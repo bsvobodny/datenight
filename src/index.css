@@ -32,12 +32,12 @@ header {
   margin-bottom: 2rem;
 }
 
-header h1 {
+header h1.home {
   margin-top: 0;
 }
 
-header h1::before,
-header h1::after {
+header h1.home::before,
+header h1.home::after {
   content: "💕";
   font-size: 4rem;
   display: inline-block;
@@ -50,6 +50,8 @@ header h1::after {
   grid-area: 2 / 1 / 3 / 2;
   display: grid;
   place-items: center;
+  margin: 1rem 0;
+
 }
 
 .center-container.start {
@@ -58,8 +60,8 @@ header h1::after {
 
 .navigation {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 0.5rem;
+  right: 0.5rem;
 }
 
 .navigation-link {
@@ -70,16 +72,16 @@ header h1::after {
 
 footer {
   grid-area: 3 / 1 / 4 / 2;
-  color: #888;
+  color: var(--ring);
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--accent);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--accent-more);
 }
 
 body {
@@ -96,11 +98,11 @@ h1 {
 }
 
 button {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--background);
   color: var(--foreground);
   transition: all 0.3s ease;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  border-radius: 1rem;
+  box-shadow: 0 5px 15px var(--shadow);
+  border-radius: 1.5rem;
   border: 1px solid transparent;
   padding: 0.6rem 1.2rem;
   font-size: 1rem;
@@ -108,11 +110,17 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  border-color: #646cff;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+button.big {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
 }
+
+button:hover {
+  border-color:  var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px var(--shadow-more);
+}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

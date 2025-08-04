@@ -56,7 +56,7 @@ function Home() {
             ⚙️
           </a>
         </div>
-        <h1>Cupion</h1>
+        <h1 className="home">Cupion</h1>
         <p className="subtitle">
           Votre assistant personnel pour des soirées romantiques inoubliables
         </p>

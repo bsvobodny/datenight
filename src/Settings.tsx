@@ -64,7 +64,7 @@ function Settings() {
                           <div key={activity.id}>
                           <label>
                               <input type="checkbox" name={activity.id} checked={!disabledActivities.includes(activity.id)} onChange={() => toggleActivity(activity.id)} />
-                              {activity.name}
+                              <span>{activity.name}</span>
                           </label>
                           </div>
                       ))}
@@ -75,7 +75,7 @@ function Settings() {
         ))}
         </div>
         <footer>
-          <button onClick={saveChanges}>Sauvegarder</button>
+          <button className="big" onClick={saveChanges}>Sauvegarder</button>
         </footer>
       </main>
     );
