@@ -1,16 +1,16 @@
-import type { Activity } from '../activities';
-import Modal from '../Modal';
-import useModal from '../Modal/useModal';
-import './style.css';
+import type { Activity } from '../activities'
+import Modal from '../Modal'
+import useModal from '../Modal/useModal'
+import './style.css'
 
 type Props = {
-  label: string;
-  activity?: Activity;
-  className?: string;
-};
+  label: string
+  activity?: Activity
+  className?: string
+}
 
 const Card = ({ label, activity, className }: Props) => {
-  const basicModal = useModal();
+  const basicModal = useModal()
 
   return (
     <>
@@ -18,7 +18,7 @@ const Card = ({ label, activity, className }: Props) => {
         className={`card ${className}`}
         onClick={() => {
           if (activity) {
-            basicModal.openModal();
+            basicModal.openModal()
           }
         }}
       >
@@ -42,7 +42,7 @@ const Card = ({ label, activity, className }: Props) => {
         </Modal>
       )}
     </>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card

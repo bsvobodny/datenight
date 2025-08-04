@@ -38,7 +38,7 @@ header h1.home {
 
 header h1.home::before,
 header h1.home::after {
-  content: "💕";
+  content: '💕';
   font-size: 4rem;
   display: inline-block;
 
@@ -51,7 +51,6 @@ header h1.home::after {
   display: grid;
   place-items: center;
   margin: 1rem 0;
-
 }
 
 .center-container.start {
@@ -116,7 +115,7 @@ button.big {
 }
 
 button:hover {
-  border-color:  var(--accent);
+  border-color: var(--accent);
   transform: translateY(-2px);
   box-shadow: 0 8px 25px var(--shadow-more);
 }

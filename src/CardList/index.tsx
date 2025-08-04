@@ -1,11 +1,11 @@
-import './style.css';
-import type { Activity, Category } from '../activities';
-import Card from '../Card';
+import './style.css'
+import type { Activity, Category } from '../activities'
+import Card from '../Card'
 
 type Props = {
-  categories: Category[];
-  selectedActivities?: Activity[];
-};
+  categories: Category[]
+  selectedActivities?: Activity[]
+}
 
 const CardList = ({ categories, selectedActivities = [] }: Props) => {
   return (
@@ -19,7 +19,7 @@ const CardList = ({ categories, selectedActivities = [] }: Props) => {
         />
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default CardList;
+export default CardList

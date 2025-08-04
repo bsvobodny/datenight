@@ -1,19 +1,19 @@
 export type Activity = {
-  id: string;
-  name: string;
-  description: string;
-};
+  id: string
+  name: string
+  description: string
+}
 
 export type Category = {
-  name: string;
-};
+  name: string
+}
 
 type SubCategory = {
-  name: string;
-  activities: Activity[];
-};
+  name: string
+  activities: Activity[]
+}
 
-type Activities = Record<string, SubCategory>;
+type Activities = Record<string, SubCategory>
 
 export const entertainment: Activities = {
   jeux_et_defis: {
@@ -211,7 +211,7 @@ export const entertainment: Activities = {
       },
     ],
   },
-};
+}
 
 export const intimate: Activities = {
   connexion_emotionnelle_profonde: {
@@ -409,7 +409,7 @@ export const intimate: Activities = {
       },
     ],
   },
-};
+}
 
 export const reconnexion: Activities = {
   relaxation: {
@@ -607,7 +607,7 @@ export const reconnexion: Activities = {
       },
     ],
   },
-};
+}
 
 export const deepIntimate: Activities = {
   preliminaires_creatifs: {
@@ -805,7 +805,7 @@ export const deepIntimate: Activities = {
       },
     ],
   },
-};
+}
 
 export const bonusMix: Activities = {
   gourmandes: {
@@ -1328,14 +1328,14 @@ export const bonusMix: Activities = {
       },
     ],
   },
-};
+}
 
 const intimacyLevels = [
   'Peu intime',
   'Modérément intime',
   'Très intime',
   'Sexuel',
-];
+]
 
 export const allActivities = {
   metadata: {
@@ -1418,36 +1418,38 @@ export const allActivities = {
       'Gardez un journal de vos activités préférées pour les refaire',
     ],
   },
-};
+}
 
 export const randomActivityFromCategory = (categoryNumber: number) => {
+  const flatActivities: Activity[] = Object.values(
+    Object.values(allActivities.categories)[categoryNumber].subCategories
+  )
+    .flatMap((sub) => sub.activities)
+    .filter((activity) => {
+      const disabledActivities = getDisabledActivities()
+      return !disabledActivities.includes(activity.id)
+    })
 
-   const flatActivities: Activity[] = Object.values(Object.values(allActivities.categories)[categoryNumber]
-    .subCategories).flatMap((sub) => sub.activities).filter((activity) => {
-    const disabledActivities = getDisabledActivities();
-    return !disabledActivities.includes(activity.id);
-  });
+  const i = Math.floor(Math.random() * flatActivities.length)
 
-  const i = Math.floor(Math.random() * flatActivities.length);
-
-  return flatActivities[i];
-};
+  return flatActivities[i]
+}
 
 export const flatActivities = () => {
   return Object.values(allActivities.categories).flatMap((category) =>
     Object.values(category.subCategories).flatMap((sub) => sub.activities)
-  );
-};
+  )
+}
 
 export const storeDisabledActivities = (activityIds: string[]) => {
-  const newDisabledActivities = [ ...activityIds];
+  const newDisabledActivities = [...activityIds]
   localStorage.setItem(
     'cupionDisabledActivities',
     JSON.stringify(newDisabledActivities)
-  );
+  )
 }
 
 export const getDisabledActivities = () => {
-  const storedActivities = localStorage.getItem('cupionDisabledActivities');
-  return storedActivities ? JSON.parse(storedActivities) : [];
+  const storedActivities = localStorage.getItem('cupionDisabledActivities')
+  return storedActivities ? JSON.parse(storedActivities) : []
 }

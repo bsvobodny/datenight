@@ -1,5 +1,5 @@
 .settings-container {
-    text-align: left;
+  text-align: left;
 }
 
 fieldset {
@@ -23,34 +23,34 @@ fieldset label {
 fieldset label span {
   margin-left: 0.5rem;
   text-align: left;
-      font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-fieldset label input[type="checkbox"] {
+fieldset label input[type='checkbox'] {
   margin-right: 1rem;
   min-width: 1.5rem;
   height: 1.5rem;
 }
 
-details{
-    margin-bottom: 1rem;
+details {
+  margin-bottom: 1rem;
 }
 
 details summary {
-    cursor: pointer;
-    font-size: 1.2rem;
-    text-align: left;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 .center-container.start > div {
-    width:100%
+  width: 100%;
 }
 
-.center-container.start > div >h2 {
-    text-align: center;
+.center-container.start > div > h2 {
+  text-align: center;
 }
 
 .settings footer {
-    text-align: center;
-    margin-top: 2rem;
+  text-align: center;
+  margin-top: 2rem;
 }

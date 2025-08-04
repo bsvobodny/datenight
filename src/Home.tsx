@@ -1,52 +1,51 @@
-import { useState } from "react";
-import "./Home.css";
-import CardList from "./CardList";
+import { useState } from 'react'
+import './Home.css'
+import CardList from './CardList'
 import {
   allActivities,
   randomActivityFromCategory,
   type Activity,
-} from "./activities";
-
+} from './activities'
 
 function Home() {
-  const [activities, setActivities] = useState<Activity[]>([]);
+  const [activities, setActivities] = useState<Activity[]>([])
 
   const selectActivity = () => {
-    const newActivities = [...activities];
+    const newActivities = [...activities]
 
     newActivities[activities.length] = randomActivityFromCategory(
       activities.length
-    );
+    )
 
-    setActivities(newActivities);
-  };
+    setActivities(newActivities)
+  }
 
   const reset = () => {
-    setActivities([]);
-  };
+    setActivities([])
+  }
 
   const startNightActivities = () => {
-    if(activities.length <4) {
-      selectActivity();
-    }else {
-      reset();
+    if (activities.length < 4) {
+      selectActivity()
+    } else {
+      reset()
     }
-  };
+  }
 
   const getActionContent = () => {
     switch (activities.length) {
       case 0:
-        return "✨";
+        return '✨'
       case 1:
-        return "🧨";
+        return '🧨'
       case 2:
-        return "❤️‍🔥";
+        return '❤️‍🔥'
       case 3:
-        return "🔥";
+        return '🔥'
       default:
-        return "↪️";
+        return '↪️'
     }
-  };
+  }
 
   return (
     <main>
@@ -75,7 +74,7 @@ function Home() {
         <small>©️ Benjamin Svobodny</small>
       </footer>
     </main>
-  );
+  )
 }
 
-export default Home;
+export default Home
