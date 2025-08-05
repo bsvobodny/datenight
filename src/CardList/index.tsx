@@ -5,9 +5,14 @@ import Card from '../Card'
 type Props = {
   categories: Category[]
   selectedActivities?: Activity[]
+  retry?: (index: number) => void
 }
 
-const CardList = ({ categories, selectedActivities = [] }: Props) => {
+const CardList = ({
+  categories,
+  selectedActivities = [],
+  retry = () => {},
+}: Props) => {
   return (
     <div className="card-list">
       {categories.map((category, index) => (
@@ -16,6 +21,9 @@ const CardList = ({ categories, selectedActivities = [] }: Props) => {
           className={`section${index + 1}`}
           label={category.name}
           activity={selectedActivities[index]}
+          retry={() => {
+            retry(index)
+          }}
         />
       ))}
     </div>

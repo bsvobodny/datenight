@@ -20,6 +20,12 @@ function Home() {
     setActivities(newActivities)
   }
 
+  const replaceActivity = (index: number) => {
+    const newActivities = [...activities]
+    newActivities[index] = randomActivityFromCategory(index)
+    setActivities(newActivities)
+  }
+
   const reset = () => {
     setActivities([])
   }
@@ -64,6 +70,7 @@ function Home() {
         <CardList
           categories={Object.values(allActivities.categories)}
           selectedActivities={activities}
+          retry={replaceActivity}
         />
         <div className="control">
           <button onClick={startNightActivities}>{getActionContent()}</button>

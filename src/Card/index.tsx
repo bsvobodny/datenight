@@ -7,9 +7,10 @@ type Props = {
   label: string
   activity?: Activity
   className?: string
+  retry?: () => void
 }
 
-const Card = ({ label, activity, className }: Props) => {
+const Card = ({ label, activity, className, retry }: Props) => {
   const basicModal = useModal()
 
   return (
@@ -22,7 +23,21 @@ const Card = ({ label, activity, className }: Props) => {
           }
         }}
       >
-        <label>{label}</label>
+        <div className="card-header">
+          <label>{label}</label>
+          {activity && retry && (
+            <button
+              className="retry"
+              onClick={(e) => {
+                e.stopPropagation()
+                retry()
+              }}
+            >
+              {' '}
+              🔄{' '}
+            </button>
+          )}
+        </div>
         <div className="card-title">
           <h2>{activity?.name}</h2>
         </div>
