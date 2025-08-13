@@ -1,0 +1,167 @@
+{
+  "relaxation": {
+    "name": "Activités de Relaxation",
+    "activities": [
+      {
+        "id": "a4c8f2e9b1d7",
+        "name": "Séance de méditation guidée à deux",
+        "description": "Moment d'introspection partagé pour apaiser l'esprit et renforcer la connexion spirituelle à travers une méditation guidée pratiquée ensemble en silence contemplatif."
+      },
+      {
+        "id": "b7e3a1f5c8d2",
+        "name": "Étirements et yoga doux ensemble",
+        "description": "Pratique douce du yoga en binôme pour détendre les muscles, améliorer la flexibilité et harmoniser vos énergies dans un cadre paisible et bienveillant."
+      },
+      {
+        "id": "c9f4b2e8a6d3",
+        "name": "Massage des épaules mutuellement",
+        "description": "Échange de massages relaxants pour soulager les tensions du quotidien, favoriser la détente musculaire et créer un moment d'intimité et de bienveillance mutuelle."
+      },
+      {
+        "id": "d1a7c5f9b4e2",
+        "name": "Bain aux chandelles partagé",
+        "description": "Immersion romantique dans un bain chaud éclairé de bougies parfumées, créant une atmosphère apaisante et sensuelle pour vous reconnecter dans la douceur."
+      },
+      {
+        "id": "e8b3d6a2f7c1",
+        "name": "Écoute d'un podcast de développement personnel",
+        "description": "Découverte commune d'un contenu enrichissant sur le développement personnel, ouvrant la discussion sur vos aspirations et votre croissance personnelle en couple."
+      },
+      {
+        "id": "f2c9e5b8d4a6",
+        "name": "Exercices de respiration synchronisée",
+        "description": "Pratique de techniques respiratoires coordonnées pour harmoniser vos rythmes, réduire le stress et créer une connexion profonde par la synchronisation de vos souffles."
+      },
+      {
+        "id": "a6d1f8c3b7e9",
+        "name": "Massage des pieds réciproque",
+        "description": "Soin mutuel des pieds par des massages relaxants, libérant les tensions accumulées et offrant un moment de détente pure dans un geste d'amour."
+      },
+      {
+        "id": "b4e7a9f2c5d8",
+        "name": "Séance d'aromathérapie avec huiles essentielles",
+        "description": "Utilisation d'huiles essentielles apaisantes pour créer une ambiance relaxante, stimuler vos sens et favoriser un état de bien-être profond et de sérénité partagée."
+      },
+      {
+        "id": "c3f6b1e4a8d7",
+        "name": "Relaxation progressive musculaire à deux",
+        "description": "Technique de détente systématique des groupes musculaires, pratiquée ensemble pour relâcher les tensions physiques et mentales dans un moment de calme absolu."
+      },
+      {
+        "id": "d9a2c7f5b6e3",
+        "name": "Écoute de musique relaxante en se tenant la main",
+        "description": "Moment d'intimité silencieuse où vous vous laissez bercer par des mélodies apaisantes, main dans la main, créant une connexion émotionnelle profonde et harmonieuse."
+      }
+    ]
+  },
+  "creativite": {
+    "name": "Activités Créatives Douces",
+    "activities": [
+      {
+        "id": "e5b8d2f9a4c7",
+        "name": "Dessin libre côte à côte",
+        "description": "Expression artistique spontanée où chacun laisse libre cours à sa créativité, partageant l'inspiration et découvrant les talents cachés de votre partenaire en douceur."
+      },
+      {
+        "id": "f1c4e7b3a9d6",
+        "name": "Coloriage pour adultes ensemble",
+        "description": "Activité méditative de coloriage qui favorise la concentration, réduit le stress et permet de créer ensemble dans un environnement calme et créatif."
+      },
+      {
+        "id": "a8d5f2c6b1e9",
+        "name": "Origami en duo",
+        "description": "Art japonais du pliage de papier pratiqué ensemble, développant patience et précision tout en créant de belles œuvres symboliques de votre collaboration harmonieuse."
+      },
+      {
+        "id": "b2e9a5f8c4d7",
+        "name": "Écriture de haïkus romantiques",
+        "description": "Composition poétique de courts poèmes japonais exprimant vos sentiments amoureux, stimulant la créativité littéraire et renforçant l'expression de vos émotions profondes."
+      },
+      {
+        "id": "c7f3b9e2a6d4",
+        "name": "Création d'un collage de vos rêves",
+        "description": "Assemblage artistique d'images représentant vos aspirations communes, visualisant votre avenir ensemble et matérialisant vos projets dans une œuvre créative inspirante."
+      },
+      {
+        "id": "d4a1f6c9b5e8",
+        "name": "Tricot ou crochet ensemble",
+        "description": "Activité manuelle relaxante où vous apprenez ou pratiquez ensemble ces arts textiles, créant des objets utiles tout en partageant un moment de tranquillité créative."
+      },
+      {
+        "id": "e6b4d8f1c2a9",
+        "name": "Modelage d'argile simple",
+        "description": "Création tactile avec de l'argile permettant d'exprimer votre créativité par le toucher, réalisant des objets simples dans un moment de détente artistique partagée."
+      },
+      {
+        "id": "f9c2e6b7a3d5",
+        "name": "Carnet de gratitude partagé",
+        "description": "Écriture commune des moments, personnes et expériences pour lesquels vous êtes reconnaissants, cultivant la positivité et renforçant l'appréciation mutuelle de votre bonheur."
+      },
+      {
+        "id": "a3d7f4c8b9e1",
+        "name": "Création d'une playlist commune",
+        "description": "Sélection musicale collaborative reflétant vos goûts et souvenirs partagés, créant une bande sonore personnalisée de votre relation et de vos moments précieux ensemble."
+      },
+      {
+        "id": "b8e5a2f7c6d4",
+        "name": "Photographie créative à la maison",
+        "description": "Exploration artistique de la photographie dans votre environnement quotidien, capturant la beauté du moment présent et créant des souvenirs visuels de votre intimité."
+      }
+    ]
+  },
+  "connexion": {
+    "name": "Activités de Connexion",
+    "activities": [
+      {
+        "id": "c1f5b8e3a7d9",
+        "name": "Partage de 3 moments forts de la journée",
+        "description": "Échange quotidien des expériences marquantes vécues, permettant de rester connectés à la vie de l'autre et de partager les joies et défis quotidiens."
+      },
+      {
+        "id": "d6a9f2c4b8e7",
+        "name": "Compliments sincères (5 minutes chacun)",
+        "description": "Moment dédié à exprimer reconnaissance et admiration mutuelle, renforçant l'estime de soi et la connexion émotionnelle par des mots bienveillants et authentiques."
+      },
+      {
+        "id": "e4b7d1f9c5a3",
+        "name": "Lecture d'un poème romantique",
+        "description": "Partage de la beauté poétique par la lecture d'œuvres romantiques, nourrissant l'âme et stimulant l'expression des sentiments à travers les mots d'autres amoureux."
+      },
+      {
+        "id": "f8c3e6b2a9d1",
+        "name": "Échange de lettres d'amour courtes",
+        "description": "Écriture et partage de messages d'amour personnels, immortalisant vos sentiments sur papier et créant des souvenirs tangibles de votre affection mutuelle profonde."
+      },
+      {
+        "id": "a2d8f5c7b4e6",
+        "name": "Jeu des questions profondes",
+        "description": "Exploration mutuelle par des questions introspectives révélant vos pensées, valeurs et rêves secrets, approfondissant la connaissance et la compréhension de votre partenaire."
+      },
+      {
+        "id": "b5e1a8f3c9d7",
+        "name": "Partage de souvenirs d'enfance",
+        "description": "Voyage nostalgique dans vos histoires personnelles, révélant les expériences formatrices qui ont façonné votre personnalité et créant une intimité par la vulnérabilité partagée."
+      },
+      {
+        "id": "c9f6b3e7a1d4",
+        "name": "Discussion sur vos rêves futurs",
+        "description": "Exploration commune de vos aspirations et projets d'avenir, alignant vos visions et construisant ensemble la route vers vos objectifs partagés et individuels."
+      },
+      {
+        "id": "d7a4f1c8b6e2",
+        "name": "Écoute active sans jugement",
+        "description": "Pratique de l'écoute bienveillante où chacun peut s'exprimer librement, se sentant entendu et compris sans crainte de jugement, renforçant la confiance mutuelle."
+      },
+      {
+        "id": "e3b9d5f2c1a8",
+        "name": "Exercice de reconnaissance mutuelle",
+        "description": "Moment structuré pour exprimer gratitude et appréciation pour les qualités, actions et présence de votre partenaire, nourrissant l'amour et la connexion émotionnelle."
+      },
+      {
+        "id": "f1c6e4b7a3d9",
+        "name": "Moment de silence contemplatif ensemble",
+        "description": "Partage d'un silence paisible et conscient, permettant de se connecter au moment présent et de ressentir la présence réconfortante de l'autre sans besoin de paroles."
+      }
+    ]
+  }
+}

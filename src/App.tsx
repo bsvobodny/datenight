@@ -1,6 +1,6 @@
 import { Route } from 'wouter'
-import Home from './Home'
-import Settings from './Settings'
+import Home from './pages/Home'
+import Settings from './pages/Settings'
 
 function App() {
   return (

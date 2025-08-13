@@ -1,7 +1,7 @@
 import { useEffect, useRef, type ReactNode } from 'react'
 import './style.css'
 
-type Props = {
+export type Props = {
   isOpen: boolean
   onClose: () => void
   title: string
@@ -17,7 +17,7 @@ interface KeyboardEvent {
 }
 
 // Composant Modal principal
-const Modal = ({
+export const Modal = ({
   isOpen,
   onClose,
   title,
@@ -84,5 +84,3 @@ const Modal = ({
     </div>
   )
 }
-
-export default Modal

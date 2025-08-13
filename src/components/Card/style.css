@@ -40,6 +40,10 @@
   padding: 0rem;
   margin-right: 0;
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
 }
 
 .description {

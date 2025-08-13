@@ -1,5 +1,7 @@
-import type { Activity } from '../activities'
-import Modal from '../Modal'
+import type { Activity } from '../../types'
+import { FcRefresh } from 'react-icons/fc'
+
+import { Modal } from '../Modal'
 import useModal from '../Modal/useModal'
 import './style.css'
 
@@ -32,9 +34,9 @@ const Card = ({ label, activity, className, retry }: Props) => {
                 e.stopPropagation()
                 retry()
               }}
+              aria-label="retry"
             >
-              {' '}
-              🔄{' '}
+              <FcRefresh />
             </button>
           )}
         </div>

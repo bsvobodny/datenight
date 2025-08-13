@@ -1,9 +1,9 @@
 import './style.css'
-import type { Activity, Category } from '../activities'
+import type { Activity } from '../../types'
 import Card from '../Card'
 
 type Props = {
-  categories: Category[]
+  categories: string[]
   selectedActivities?: Activity[]
   retry?: (index: number) => void
 }
@@ -17,9 +17,9 @@ const CardList = ({
     <div className="card-list">
       {categories.map((category, index) => (
         <Card
-          key={category.name}
+          key={category}
           className={`section${index + 1}`}
-          label={category.name}
+          label={category}
           activity={selectedActivities[index]}
           retry={() => {
             retry(index)
