@@ -60,6 +60,7 @@ export const Modal = ({
 
   return (
     <div
+      data-testid="modal-overlay"
       className={`modal-overlay ${isOpen ? 'modal-open' : ''}`}
       onClick={handleOverlayClick}
     >

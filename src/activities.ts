@@ -115,15 +115,10 @@ export const flatActivities = () => {
   )
 }
 
-export const getAllCategoryNames = () => {
-  return Object.values(allActivities.categories).map(
-    (category) => category.name
-  )
-}
+export const getAllCategoryNames = () =>
+  Object.values(allActivities.categories).map((category) => category.name)
 
-export const getAllCategories = () => {
-  return Object.values(allActivities.categories)
-}
+export const getAllCategories = () => Object.values(allActivities.categories)
 
 export const storeDisabledActivities = (activityIds: string[]) => {
   const newDisabledActivities = [...activityIds]

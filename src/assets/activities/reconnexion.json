@@ -51,6 +51,206 @@
         "id": "d9a2c7f5b6e3",
         "name": "Écoute de musique relaxante en se tenant la main",
         "description": "Moment d'intimité silencieuse où vous vous laissez bercer par des mélodies apaisantes, main dans la main, créant une connexion émotionnelle profonde et harmonieuse."
+      },
+      {
+        "id": "f7a8b9c1",
+        "name": "Séance de méditation guidée à deux",
+        "description": "Suivez ensemble une méditation audio pour synchroniser vos respirations et atteindre un état de paix partagée."
+      },
+      {
+        "id": "e6d4c2a9",
+        "name": "Étirements et yoga doux ensemble",
+        "description": "Pratiquez des postures simples de yoga en miroir pour détendre vos corps et harmoniser vos énergies doucement."
+      },
+      {
+        "id": "b3f7e8d2",
+        "name": "Massage des épaules mutuellement",
+        "description": "Alternez pour masser tendrement les épaules de votre partenaire, libérant les tensions accumulées dans la journée."
+      },
+      {
+        "id": "a4c6b9f1",
+        "name": "Bain aux chandelles partagé",
+        "description": "Créez une atmosphère romantique avec des bougies pour un bain relaxant qui réunit vos corps et esprits."
+      },
+      {
+        "id": "d8e2f5a3",
+        "name": "Écoute d'un podcast de développement personnel",
+        "description": "Découvrez ensemble des contenus inspirants qui nourrissent votre croissance personnelle et renforce votre connexion intellectuelle."
+      },
+      {
+        "id": "c5b8a4d7",
+        "name": "Exercices de respiration synchronisée",
+        "description": "Harmonisez vos rythmes respiratoires pour créer une intimité profonde et apaiser vos systèmes nerveux ensemble."
+      },
+      {
+        "id": "f9a1c6e4",
+        "name": "Massage des pieds réciproque",
+        "description": "Prenez soin l'un de l'autre en massant délicatement vos pieds, zone riche en terminaisons nerveuses apaisantes."
+      },
+      {
+        "id": "e7d3b2f8",
+        "name": "Séance d'aromathérapie avec huiles essentielles",
+        "description": "Diffusez des parfums relaxants et appliquez des huiles sur vos poignets pour une détente sensorielle complète."
+      },
+      {
+        "id": "b6c9a5d1",
+        "name": "Relaxation progressive musculaire à deux",
+        "description": "Contractez et relâchez chaque groupe musculaire ensemble, guidant mutuellement votre partenaire vers la détente totale."
+      },
+      {
+        "id": "a8f4e7c2",
+        "name": "Écoute de musique relaxante en se tenant la main",
+        "description": "Laissez la musique douce vous envelopper pendant que vos mains entrelacées créent une connexion tactile apaisante."
+      },
+      {
+        "id": "d3b7f9a6",
+        "name": "Séance de tai-chi lent en duo",
+        "description": "Pratiquez des mouvements fluides et harmonieux qui synchronisent vos gestes pour créer une méditation en mouvement."
+      },
+      {
+        "id": "c8e1a4f5",
+        "name": "Écoute d'un livre audio relaxant enlacés",
+        "description": "Blottissez-vous l'un contre l'autre pendant qu'une voix apaisante vous transporte dans un univers serein ensemble."
+      },
+      {
+        "id": "f2d6c8b4",
+        "name": "Brossage doux des cheveux mutuellement",
+        "description": "Alternez pour brosser tendrement les cheveux de votre partenaire, geste intime qui stimule la relaxation du cuir."
+      },
+      {
+        "id": "e5a9f1d7",
+        "name": "Dégustation consciente de tisanes",
+        "description": "Savourez lentement des infusions chaudes en portant attention à chaque arôme, température et sensation partagée ensemble."
+      },
+      {
+        "id": "b1c4e8a3",
+        "name": "Séance de stretching au coucher du soleil",
+        "description": "Étirez-vous ensemble face au ciel coloré, synchronisant vos mouvements avec la beauté naturelle du crépuscule."
+      },
+      {
+        "id": "a7f3b6d9",
+        "name": "Massage du cuir chevelu réciproque",
+        "description": "Stimulez délicatement le cuir chevelu de votre partenaire avec vos doigts pour libérer les tensions nerveuses."
+      },
+      {
+        "id": "d4c8e2f6",
+        "name": "Bain de pieds aux sels d'Epsom ensemble",
+        "description": "Trempez vos pieds côte à côte dans l'eau tiède salée pour détendre vos muscles et partager un."
+      },
+      {
+        "id": "c6b9d5a1",
+        "name": "Contemplation d'une bougie en silence",
+        "description": "Fixez ensemble la flamme dansante d'une bougie pour entrer dans un état méditatif partagé et apaisant."
+      },
+      {
+        "id": "f8a2c7e4",
+        "name": "Écoute des bruits de la nature",
+        "description": "Fermez les yeux et laissez-vous transporter par les sons d'oiseaux, de pluie ou d'océan pour."
+      },
+      {
+        "id": "e3d7f9b5",
+        "name": "Séance de réflexologie plantaire mutuelle",
+        "description": "Explorez les points de pression des pieds de votre partenaire pour stimuler la détente dans tout."
+      },
+      {
+        "id": "b8c1a6f2",
+        "name": "Étirements passifs assistés",
+        "description": "Aidez votre partenaire à étirer ses muscles en douceur, créant confiance et intimité dans le mouvement."
+      },
+      {
+        "id": "a9f5d8c3",
+        "name": "Méditation en marchant main dans la main",
+        "description": "Marchez lentement ensemble en synchronisant vos pas, transformant la marche en pratique méditative connectée et apaisante."
+      },
+      {
+        "id": "d2e6b4f7",
+        "name": "Relaxation avec musique binaurale",
+        "description": "Utilisez des écouteurs pour écouter des fréquences spéciales qui harmonisent vos ondes cérébrales vers la détente."
+      },
+      {
+        "id": "c7a3f8d1",
+        "name": "Massage des mains avec crème parfumée",
+        "description": "Prenez le temps de masser chaque doigt et paume avec des crèmes odorantes pour nourrir."
+      },
+      {
+        "id": "f4b7e9a6",
+        "name": "Séance de visualisation guidée à deux",
+        "description": "Imaginez ensemble un lieu paradisiaque en suivant les mêmes instructions pour partager une évasion mentale."
+      },
+      {
+        "id": "e8c2d5f3",
+        "name": "Respiration en comptant ensemble (4-7-8)",
+        "description": "Pratiquez la technique respiratoire 4-7-8 en synchronie pour calmer instantanément vos systèmes nerveux respectifs ensemble."
+      },
+      {
+        "id": "b5a9c6e1",
+        "name": "Automassage du visage côte à côte",
+        "description": "Suivez les mêmes gestes pour masser votre visage simultanément, créant une routine beauté relaxante et."
+      },
+      {
+        "id": "a1f4d7b8",
+        "name": "Écoute de sons tibétains ou bols chantants",
+        "description": "Laissez les vibrations profondes des instruments sacrés pénétrer vos corps pour une guérison sonore partagée."
+      },
+      {
+        "id": "d6c3e8a4",
+        "name": "Relaxation musculaire par zones corporelles",
+        "description": "Guidez-vous mutuellement dans la détente progressive de chaque partie du corps, de la tête aux."
+      },
+      {
+        "id": "c9f2b7d5",
+        "name": "Dégustation lente de chocolat noir",
+        "description": "Savourez consciemment chaque carré de chocolat ensemble, explorant les arômes et textures avec tous vos."
+      },
+      {
+        "id": "f7e1a8c6",
+        "name": "Séance de détente aux pierres chaudes",
+        "description": "Utilisez des pierres chauffées pour détendre vos muscles tendus, alternant pour vous offrir cette thérapie."
+      },
+      {
+        "id": "e4d8b3f9",
+        "name": "Méditation de pleine conscience alimentaire",
+        "description": "Partagez un fruit ou un aliment simple en portant toute votre attention sur chaque sensation."
+      },
+      {
+        "id": "b2c6a9e7",
+        "name": "Massage doux des tempes et du cou",
+        "description": "Libérez les tensions accumulées dans ces zones sensibles par des mouvements circulaires apaisants et synchronisés."
+      },
+      {
+        "id": "a5f9d1c4",
+        "name": "Bain de vapeur facial aux herbes",
+        "description": "Respirez ensemble la vapeur parfumée d'herbes aromatiques pour purifier votre peau et vos voies respiratoires."
+      },
+      {
+        "id": "d8b4f6a2",
+        "name": "Écoute de fréquences apaisantes (528 Hz)",
+        "description": "Écoutez la fréquence de l'amour et de la guérison pour harmoniser vos vibrations cellulaires."
+      },
+      {
+        "id": "c3e7a5d9",
+        "name": "Relaxation avec compresses chaudes parfumées",
+        "description": "Appliquez des tissus chauds imbibés d'huiles essentielles sur vos nuques pour une détente profonde."
+      },
+      {
+        "id": "f6a1c8b7",
+        "name": "Séance de respiration alternée",
+        "description": "Pratiquez la respiration par narines alternées ensemble pour équilibrer vos énergies et calmer vos."
+      },
+      {
+        "id": "e9d2f4c5",
+        "name": "Massage léger avec huiles chaudes",
+        "description": "Réchauffez des huiles naturelles pour masser délicatement le dos et les bras de votre partenaire."
+      },
+      {
+        "id": "b7c5a8f1",
+        "name": "Détente progressive des muscles faciaux",
+        "description": "Relâchez consciemment chaque muscle de votre visage ensemble pour libérer les tensions émotionnelles accumulées."
+      },
+      {
+        "id": "a3f7e9d6",
+        "name": "Méditation de gratitude corporelle",
+        "description": "Remerciez mentalement chaque partie de vos corps pour leur service quotidien dans une reconnaissance partagée."
       }
     ]
   },
@@ -106,6 +306,206 @@
         "id": "b8e5a2f7c6d4",
         "name": "Photographie créative à la maison",
         "description": "Exploration artistique de la photographie dans votre environnement quotidien, capturant la beauté du moment présent et créant des souvenirs visuels de votre intimité."
+      },
+      {
+        "id": "f8b2d6a4",
+        "name": "Dessin libre côte à côte",
+        "description": "Laissez libre cours à votre créativité en dessinant sans contrainte, partageant l'inspiration mutuelle dans vos créations."
+      },
+      {
+        "id": "e5c9a7f3",
+        "name": "Coloriage pour adultes ensemble",
+        "description": "Remplissez des mandalas ou motifs complexes avec des couleurs apaisantes pour méditer activement ensemble."
+      },
+      {
+        "id": "d1f4b8c6",
+        "name": "Origami en duo",
+        "description": "Pliez le papier selon des techniques japonaises traditionnelles, créant ensemble des formes délicates et."
+      },
+      {
+        "id": "c7a3e9d2",
+        "name": "Écriture de haïkus romantiques",
+        "description": "Composez des poèmes courts de trois vers inspirés par votre amour et la beauté."
+      },
+      {
+        "id": "b4f6c1a8",
+        "name": "Création d'un collage de vos rêves",
+        "description": "Découpez et collez des images représentant vos aspirations communes pour visualiser votre avenir."
+      },
+      {
+        "id": "a9e2d7f5",
+        "name": "Tricot ou crochet ensemble",
+        "description": "Apprenez les bases du tricot côte à côte, créant des objets utiles tout en partageant."
+      },
+      {
+        "id": "f3c8b5d9",
+        "name": "Modelage d'argile simple",
+        "description": "Façonnez l'argile avec vos mains pour créer des formes abstraites ou objets symboliques de."
+      },
+      {
+        "id": "e7a4f2c6",
+        "name": "Carnet de gratitude partagé",
+        "description": "Écrivez à tour de rôle dans un carnet commun trois choses pour lesquelles vous."
+      },
+      {
+        "id": "d2b6e8a1",
+        "name": "Création d'une playlist commune",
+        "description": "Alternez pour ajouter des chansons significatives à une liste musicale qui raconte votre histoire."
+      },
+      {
+        "id": "c8f1d4b7",
+        "name": "Photographie créative à la maison",
+        "description": "Explorez la photographie artistique en capturant la beauté des détails domestiques et de votre."
+      },
+      {
+        "id": "b5a9c3f6",
+        "name": "Création d'un herbier romantique",
+        "description": "Collectez et pressez des fleurs et feuilles pour créer un livre botanique symbolisant votre."
+      },
+      {
+        "id": "a2e7d9c4",
+        "name": "Peinture à l'eau sur papier mouillé",
+        "description": "Expérimentez les effets magiques de l'aquarelle sur papier humide pour des créations organiques."
+      },
+      {
+        "id": "f6c2b8a5",
+        "name": "Fabrication de bougies parfumées",
+        "description": "Mélangez cires et parfums pour créer des bougies uniques qui embaumeront vos soirées futures."
+      },
+      {
+        "id": "e1d4f7c9",
+        "name": "Création de signets personnalisés",
+        "description": "Concevez des marque-pages décoratifs avec vos citations d'amour préférées pour vos lectures."
+      },
+      {
+        "id": "d8a3e6b2",
+        "name": "Broderie simple sur tissu",
+        "description": "Apprenez les points de base de la broderie pour décorer ensemble des tissus."
+      },
+      {
+        "id": "c4f9a1d7",
+        "name": "Assemblage d'un puzzle romantique",
+        "description": "Reconstituez patiemment une image belle ou significative en collaborant et vous encourageant mutuellement."
+      },
+      {
+        "id": "b7e5c8f3",
+        "name": "Création de cartes postales artistiques",
+        "description": "Concevez des cartes originales avec dessins et messages d'amour que vous pourrez vous."
+      },
+      {
+        "id": "a3d6b9e4",
+        "name": "Fabrication de savons naturels",
+        "description": "Mélangez huiles et parfums naturels pour créer des savons artisanaux parfumés pour vos routines."
+      },
+      {
+        "id": "f9c1a5d8",
+        "name": "Peinture de galets trouvés ensemble",
+        "description": "Transformez des pierres ramassées en œuvres d'art miniatures colorées symbolisant vos moments."
+      },
+      {
+        "id": "e4b7f2c6",
+        "name": "Création d'un mobile décoratif",
+        "description": "Assemblez des éléments légers en équilibre pour créer une sculpture suspendue apaisante pour."
+      },
+      {
+        "id": "d1a8c4f9",
+        "name": "Confection de sachets parfumés",
+        "description": "Remplissez de petits tissus avec des herbes séchées pour parfumer naturellement vos espaces."
+      },
+      {
+        "id": "c6f3e7b5",
+        "name": "Création d'attrape-rêves en duo",
+        "description": "Tissez ensemble des cercles ornés de plumes et perles pour capturer les beaux."
+      },
+      {
+        "id": "b2d9a6c1",
+        "name": "Fabrication de bijoux simples (bracelets)",
+        "description": "Enfilez perles et fils pour créer des parures assorties symbolisant votre lien indéfectible."
+      },
+      {
+        "id": "a8e4f1d7",
+        "name": "Création d'un livre photo manuscrit",
+        "description": "Assemblez vos plus belles photos avec textes écrits à la main pour immortaliser."
+      },
+      {
+        "id": "f5c7b3a9",
+        "name": "Assemblage de fleurs séchées",
+        "description": "Composez des arrangements floraux durables avec des fleurs préservées pour décorer votre intérieur."
+      },
+      {
+        "id": "e2d8f6c4",
+        "name": "Fabrication de sels de bain colorés",
+        "description": "Mélangez sels, colorants et huiles pour créer des sels personnalisés pour vos bains."
+      },
+      {
+        "id": "d7a1c9e5",
+        "name": "Création d'étiquettes personnalisées",
+        "description": "Concevez des étiquettes décoratives pour organiser et embellir vos objets du quotidien avec."
+      },
+      {
+        "id": "c3f5b8d2",
+        "name": "Peinture sur soie avec des tampons",
+        "description": "Créez des motifs délicats sur tissu soyeux en utilisant des tampons et peintures."
+      },
+      {
+        "id": "b9e6a4f7",
+        "name": "Création de marque-pages en feutre",
+        "description": "Découpez et décorez du feutre coloré pour fabriquer des signets durables et."
+      },
+      {
+        "id": "a6d2c8b1",
+        "name": "Fabrication de bougies en cire de soja",
+        "description": "Utilisez de la cire naturelle et écologique pour créer des bougies saines."
+      },
+      {
+        "id": "f1b4e7a9",
+        "name": "Création d'un calendrier romantique",
+        "description": "Concevez un calendrier personnalisé avec vos dates importantes et photos de couple."
+      },
+      {
+        "id": "e8c5d3f6",
+        "name": "Assemblage d'un terrarium miniature",
+        "description": "Créez un écosystème miniature dans un récipient transparent avec plantes et décorations."
+      },
+      {
+        "id": "d4f9a7b2",
+        "name": "Création de dessous de verre artistiques",
+        "description": "Décorez des supports pour verres avec motifs et couleurs assortis à votre décoration."
+      },
+      {
+        "id": "c1a6e8d5",
+        "name": "Fabrication de bombes de bain",
+        "description": "Mélangez bicarbonate et huiles pour créer des effervescents parfumés pour vos bains."
+      },
+      {
+        "id": "b7f2c4a8",
+        "name": "Création d'un carnet de recettes illustré",
+        "description": "Compilez vos plats préférés avec dessins et anecdotes culinaires dans un."
+      },
+      {
+        "id": "a4e9d6c3",
+        "name": "Assemblage d'un mandala en graines",
+        "description": "Créez des motifs géométriques sacrés en collant différentes graines colorées sur un."
+      },
+      {
+        "id": "f8b1a5e7",
+        "name": "Création de décorations en pâte à sel",
+        "description": "Modelez et peignez des objets décoratifs avec cette pâte naturelle facile à."
+      },
+      {
+        "id": "e3d7f9c6",
+        "name": "Fabrication d'un diffuseur de parfum",
+        "description": "Assemblez un système simple pour diffuser naturellement vos fragrances préférées dans votre."
+      },
+      {
+        "id": "d9c4b6a1",
+        "name": "Création d'une mosaïque simple",
+        "description": "Assemblez petits morceaux colorés pour former une image ou motif décoratif ensemble."
+      },
+      {
+        "id": "c5f8e2d7",
+        "name": "Assemblage d'un album de textures",
+        "description": "Collectez et organisez différents matériaux tactiles pour créer un livre sensoriel à."
       }
     ]
   },
@@ -161,6 +561,161 @@
         "id": "f1c6e4b7a3d9",
         "name": "Moment de silence contemplatif ensemble",
         "description": "Partage d'un silence paisible et conscient, permettant de se connecter au moment présent et de ressentir la présence réconfortante de l'autre sans besoin de paroles."
+      },
+      {
+        "id": "a7d3f9c2",
+        "name": "Partage de 3 moments forts de la journée",
+        "description": "Racontez-vous mutuellement les trois expériences les plus marquantes ou joyeuses de votre journée."
+      },
+      {
+        "id": "b4e8a6f1",
+        "name": "Compliments sincères (5 minutes chacun)",
+        "description": "Exprimez pendant cinq minutes vos appréciations authentiques sur les qualités de votre partenaire."
+      },
+      {
+        "id": "c9f2d7b5",
+        "name": "Lecture d'un poème romantique",
+        "description": "Lisez à haute voix un poème d'amour choisi ensemble, laissant les mots créer."
+      },
+      {
+        "id": "d6a4c8e3",
+        "name": "Échange de lettres d'amour courtes",
+        "description": "Écrivez puis échangez des messages tendres exprimant vos sentiments du moment l'un."
+      },
+      {
+        "id": "e1f7b9d4",
+        "name": "Jeu des questions profondes",
+        "description": "Posez-vous alternativement des questions intimes pour découvrir de nouveaux aspects de votre."
+      },
+      {
+        "id": "f8c5a2e6",
+        "name": "Partage de souvenirs d'enfance",
+        "description": "Racontez des anecdotes de votre jeunesse pour mieux comprendre les racines de."
+      },
+      {
+        "id": "a3b9d6f7",
+        "name": "Discussion sur vos rêves futurs",
+        "description": "Explorez ensemble vos aspirations et projets pour construire une vision commune de."
+      },
+      {
+        "id": "b7e4f1a8",
+        "name": "Écoute active sans jugement",
+        "description": "Pratiquez l'art d'écouter pleinement votre partenaire sans interrompre ni juger ses."
+      },
+      {
+        "id": "c2d8a5f9",
+        "name": "Exercice de reconnaissance mutuelle",
+        "description": "Exprimez votre gratitude pour les gestes quotidiens et l'amour que vous recevez."
+      },
+      {
+        "id": "d9f3c7b1",
+        "name": "Moment de silence contemplatif ensemble",
+        "description": "Restez simplement présents l'un avec l'autre dans un silence paisible et."
+      },
+      {
+        "id": "e4a6d2f8",
+        "name": "Partage de vos plus belles découvertes récentes",
+        "description": "Présentez une nouveauté enrichissante que vous avez récemment apprise ou expérimentée dans."
+      },
+      {
+        "id": "f1c9e5b7",
+        "name": "Échange sur ce qui vous inspire chez l'autre",
+        "description": "Révélez les qualités spécifiques de votre partenaire qui nourrissent votre admiration et."
+      },
+      {
+        "id": "a8d4b6c3",
+        "name": "Discussion sur vos valeurs communes",
+        "description": "Explorez les principes moraux et convictions profondes qui vous unissent dans la."
+      },
+      {
+        "id": "b5f7a9d2",
+        "name": "Partage de vos chansons les plus significatives",
+        "description": "Présentez des musiques qui marquent des étapes importantes de votre histoire personnelle."
+      },
+      {
+        "id": "c1e8d3f6",
+        "name": "Échange de compliments sur les qualités intérieures",
+        "description": "Célébrez mutuellement vos forces de caractère, votre sagesse et votre beauté."
+      },
+      {
+        "id": "d7b2f4a9",
+        "name": "Discussion sur vos apprentissages récents",
+        "description": "Partagez les leçons de vie, compétences ou connaissances que vous avez acquises."
+      },
+      {
+        "id": "e3c6a8f1",
+        "name": "Partage de vos moments de fierté mutuelle",
+        "description": "Exprimez les occasions où vous avez ressenti une grande fierté pour votre partenaire."
+      },
+      {
+        "id": "f9d5c2b4",
+        "name": "Échange sur ce qui vous fait rire ensemble",
+        "description": "Remémorez-vous les situations hilarantes partagées et explorez votre humour."
+      },
+      {
+        "id": "a4e7b9c6",
+        "name": "Discussion sur vos traditions préférées en couple",
+        "description": "Identifiez les rituels et habitudes que vous chérissez le plus dans votre relation."
+      },
+      {
+        "id": "b2f1d8a5",
+        "name": "Partage de vos espoirs pour la prochaine décennie",
+        "description": "Visualisez ensemble les dix prochaines années et les expériences que vous souhaitez."
+      },
+      {
+        "id": "c8a3f6d7",
+        "name": "Échange sur ce qui vous apaise chez l'autre",
+        "description": "Révélez les aspects réconfortants de votre partenaire qui vous procurent paix et."
+      },
+      {
+        "id": "d4c7e9b1",
+        "name": "Discussion sur vos rituels matinaux idéaux",
+        "description": "Décrivez la façon dont vous aimeriez commencer chaque journée ensemble dans."
+      },
+      {
+        "id": "e9f5a2d8",
+        "name": "Partage de vos définitions personnelles de l'amour",
+        "description": "Explorez ce que signifie aimer et être aimé selon vos expériences et."
+      },
+      {
+        "id": "f6b8c4e3",
+        "name": "Échange sur vos petits bonheurs quotidiens",
+        "description": "Identifiez les micro-plaisirs simples qui illuminent régulièrement vos journées respectives."
+      },
+      {
+        "id": "a1d9f7c5",
+        "name": "Discussion sur vos façons préférées de recevoir de l'affection",
+        "description": "Explorez vos langages d'amour pour mieux vous exprimer tendresse et attention."
+      },
+      {
+        "id": "b7e2a6f9",
+        "name": "Partage de vos souvenirs les plus tendres ensemble",
+        "description": "Remémorez-vous les moments les plus touchants et émouvants de votre histoire."
+      },
+      {
+        "id": "c3f8d4b6",
+        "name": "Échange sur ce qui vous rend reconnaissants aujourd'hui",
+        "description": "Exprimez votre gratitude pour les bénédictions présentes dans vos vies actuelles."
+      },
+      {
+        "id": "d8a1e9c2",
+        "name": "Discussion sur vos saisons préférées et pourquoi",
+        "description": "Partagez vos périodes de l'année favorites en explorant les souvenirs et émotions."
+      },
+      {
+        "id": "e5c4f7a8",
+        "name": "Partage de vos rêves les plus fous (réalisables)",
+        "description": "Révélez vos aspirations audacieuses mais possibles que vous aimeriez concrétiser."
+      },
+      {
+        "id": "f2b6d9e1",
+        "name": "Échange sur ce qui vous surprend encore chez l'autre",
+        "description": "Découvrez les aspects fascinants de votre partenaire qui continuent de vous."
+      },
+      {
+        "id": "a9e3c5f4",
+        "name": "Discussion sur vos petites habitudes mignonnes mutuelles",
+        "description": "Célébrez les manies adorables et gestes tendres que vous remarquez l'un."
       }
     ]
   }

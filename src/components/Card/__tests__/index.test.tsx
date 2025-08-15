@@ -1,13 +1,14 @@
 import { render, fireEvent, screen } from '@testing-library/react'
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import Card from './index'
-import type { Activity } from '../../types'
-import { type Props } from '../Modal'
+import '@testing-library/jest-dom'
+import Card from '../index'
+import type { Activity } from '../../../types'
+import { type Props } from '../../Modal'
 
 // src/Card/index.test.tsx
 
 // Mock Modal component
-vi.mock('../Modal', () => ({
+vi.mock('../../Modal', () => ({
   __esModule: true,
   Modal: ({ isOpen, title, children }: Props) =>
     isOpen ? (
@@ -22,7 +23,7 @@ vi.mock('../Modal', () => ({
 const openModal = vi.fn()
 const closeModal = vi.fn()
 let isOpen = false
-vi.mock('../Modal/useModal', () => ({
+vi.mock('../../Modal/useModal', () => ({
   __esModule: true,
   default: () => ({
     isOpen,

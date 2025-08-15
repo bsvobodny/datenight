@@ -16,6 +16,21 @@ function Settings() {
 
   const categories = useRef(getAllCategories())
 
+  // categories.current.map((category) => {
+  //   const toPrint = [];
+  //   toPrint.push(category.name,'\n')
+
+  //   Object.entries(category.subCategories).map(
+  //     ([_, subcat]) => {
+  //       toPrint.push(subcat.name,'\n')
+
+  //       subcat.activities.map((activity) => {
+  //         toPrint.push('- ',activity.name,'\n')
+  //       })
+  //     })
+  //     console.log(toPrint.join(''))
+  //   })
+
   const addToRefs = (el: HTMLDetailsElement | null, index: number) => {
     if (el) {
       detailsRefs.current[index] = el
