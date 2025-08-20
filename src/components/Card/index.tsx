@@ -1,5 +1,7 @@
-import type { Activity } from '../activities'
-import Modal from '../Modal'
+import type { Activity } from '../../types'
+import { FcRefresh } from 'react-icons/fc'
+
+import { Modal } from '../Modal'
 import useModal from '../Modal/useModal'
 import './style.css'
 
@@ -7,9 +9,10 @@ type Props = {
   label: string
   activity?: Activity
   className?: string
+  retry?: () => void
 }
 
-const Card = ({ label, activity, className }: Props) => {
+const Card = ({ label, activity, className, retry }: Props) => {
   const basicModal = useModal()
 
   return (
@@ -22,7 +25,21 @@ const Card = ({ label, activity, className }: Props) => {
           }
         }}
       >
-        <label>{label}</label>
+        <div className="card-header">
+          <label>{label}</label>
+          {activity && retry && (
+            <button
+              className="retry"
+              onClick={(e) => {
+                e.stopPropagation()
+                retry()
+              }}
+              aria-label="retry"
+            >
+              <FcRefresh />
+            </button>
+          )}
+        </div>
         <div className="card-title">
           <h2>{activity?.name}</h2>
         </div>

@@ -1,0 +1,442 @@
+{
+  "gourmandes": {
+    "name": "Activités Gourmandes",
+    "activities": [
+      {
+        "id": "a1b2c3d4e5f6",
+        "name": "Préparation d'un cocktail ensemble",
+        "description": "Créez des cocktails personnalisés en mélangeant vos saveurs préférées. Expérimentez avec des ingrédients frais et partagez des moments complices autour de la création de boissons uniques et savoureuses."
+      },
+      {
+        "id": "b2c3d4e5f6g7",
+        "name": "Dégustation de chocolats fins",
+        "description": "Explorez différentes variétés de chocolats artisanaux et découvrez leurs subtilités. Savourez chaque bouchée en analysant les arômes et textures pour développer vos papilles gustatives ensemble."
+      },
+      {
+        "id": "c3d4e5f6g7h8",
+        "name": "Création d'un plateau de fromages",
+        "description": "Composez un plateau gastronameique avec des fromages variés, accompagnements et vins. Apprenez les accords parfaits et créez une expérience culinaire raffinée pour vos soirées romantiques."
+      },
+      {
+        "id": "d4e5f6g7h8i9",
+        "name": "Préparation de smoothies exotiques",
+        "description": "Mélangez des fruits tropicaux et ingrédients nutritifs pour créer des smoothies colorés. Expérimentez avec des combinaisons originales et partagez des boissons saines et délicieuses ensemble."
+      },
+      {
+        "id": "e5f6g7h8i9j0",
+        "name": "Dégustation de vins",
+        "description": "Découvrez l'art de la dégustation œnologique en explorant différents cépages et terroirs. Apprenez à identifier les arômes et développez votre palais pour apprécier pleinement chaque vin."
+      },
+      {
+        "id": "f6g7h8i9j0k1",
+        "name": "Création de cocktails sans alcool",
+        "description": "Inventez des mocktails créatifs avec des jus, sirops et épices. Explorez des saveurs rafraîchissantes et originales pour créer des boissons festives sans alcool parfaites pour toute occasion."
+      },
+      {
+        "id": "g7h8i9j0k1l2",
+        "name": "Préparation d'un dessert simple",
+        "description": "Cuisinez ensemble un dessert facile et délicieux en partageant les tâches. Créez des souvenirs sucrés tout en apprenant de nouvelles techniques culinaires dans une ambiance détendue."
+      },
+      {
+        "id": "h8i9j0k1l2m3",
+        "name": "Dégustation de thés rares",
+        "description": "Explorez des thés exceptionnels du monde entier et découvrez leurs propriétés uniques. Apprenez les techniques d'infusion et créez un moment de détente autour de ces boissons ancestrales."
+      },
+      {
+        "id": "i9j0k1l2m3n4",
+        "name": "Création d'un repas aphrodisiaque",
+        "description": "Préparez un dîner sensuel avec des ingrédients réputés aphrodisiaques. Créez une atmosphère romantique tout en cuisinant des plats qui stimulent les sens et renforcent l'intimité."
+      },
+      {
+        "id": "j0k1l2m3n4o5",
+        "name": "Pique-nique intérieur",
+        "description": "Organisez un pique-nique romantique dans votre salon avec des mets délicats. Créez une atmosphère champêtre à l'intérieur et partagez un moment convivial sur une couverture douillette."
+      }
+    ]
+  },
+  "artistiques": {
+    "name": "Activités Artistiques",
+    "activities": [
+      {
+        "id": "k1l2m3n4o5p6",
+        "name": "Peinture corporelle non-sexuelle",
+        "description": "Explorez l'art corporel en peignant des motifs artistiques sur vos mains et bras. Créez des œuvres temporaires colorées et laissez libre cours à votre créativité dans un cadre respectueux."
+      },
+      {
+        "id": "l2m3n4o5p6q7",
+        "name": "Création d'un poème ensemble",
+        "description": "Écrivez un poème collaboratif en alternant les vers et les strophes. Explorez vos émotions à travers les mots et créez une œuvre littéraire unique qui reflète votre relation."
+      },
+      {
+        "id": "m3n4o5p6q7r8",
+        "name": "Photoshoot romantique amateur",
+        "description": "Organisez une séance photo créative pour capturer vos moments complices. Expérimentez avec différents angles et éclairages pour créer des souvenirs visuels mémorables de votre relation."
+      },
+      {
+        "id": "n4o5p6q7r8s9",
+        "name": "Création d'une bande dessinée de votre histoire",
+        "description": "Racontez votre histoire d'amour sous forme de BD avec dessins et bulles. Créez des personnages à votre image et immortalisez vos moments forts dans un format artistique original."
+      },
+      {
+        "id": "o5p6q7r8s9t0",
+        "name": "Sculpture d'argile ensemble",
+        "description": "Modelez l'argile pour créer des sculptures expressives en collaboration. Laissez vos mains donner forme à vos idées et créez des œuvres d'art tangibles qui représentent votre créativité commune."
+      },
+      {
+        "id": "p6q7r8s9t0u1",
+        "name": "Création d'un livre photo",
+        "description": "Compilez vos plus belles photos dans un album personnalisé avec légendes. Organisez vos souvenirs chronologiquement et créez un livre précieux qui raconte votre histoire d'amour."
+      },
+      {
+        "id": "q7r8s9t0u1v2",
+        "name": "Écriture d'une chanson",
+        "description": "Composez une mélodie et écrivez des paroles qui vous ressemblent. Créez votre hymne personnel en combinant vos talents musicaux et littéraires pour une œuvre unique et personnelle."
+      },
+      {
+        "id": "r8s9t0u1v2w3",
+        "name": "Création d'une danse",
+        "description": "Choreographiez une danse sur votre musique préférée en synchronisant vos mouvements. Exprimez-vous à travers le langage corporel et créez une performance unique qui reflète votre complicité."
+      },
+      {
+        "id": "s9t0u1v2w3x4",
+        "name": "Peinture à l'aquarelle",
+        "description": "Explorez la technique de l'aquarelle en créant des œuvres délicates et fluides. Jouez avec les couleurs et la transparence pour développer votre sensibilité artistique dans une activité relaxante."
+      },
+      {
+        "id": "t0u1v2w3x4y5",
+        "name": "Création d'un mandala",
+        "description": "Dessinez des mandalas complexes pour développer votre concentration et créativité. Créez des motifs géométriques symétriques qui favorisent la méditation et l'expression artistique personnelle ensemble."
+      }
+    ]
+  },
+  "communication": {
+    "name": "Activités de Communication",
+    "activities": [
+      {
+        "id": "u1v2w3x4y5z6",
+        "name": "Jeu de questions intimes",
+        "description": "Posez-vous des questions profondes pour mieux vous connaître et renforcer votre intimité. Explorez vos pensées, désirs et rêves dans un cadre bienveillant et confidentiel."
+      },
+      {
+        "id": "v2w3x4y5z6a7",
+        "name": "Partage de journaux personnels",
+        "description": "Échangez des extraits de vos journaux intimes pour partager vos pensées les plus profondes. Créez un climat de confiance mutuelle en révélant vos réflexions personnelles."
+      },
+      {
+        "id": "w3x4y5z6a7b8",
+        "name": "Création d'un code secret",
+        "description": "Inventez un langage codé unique pour communiquer de manière privée et complice. Développez des signes, mots et symboles qui renforcent votre intimité et votre complicité."
+      },
+      {
+        "id": "x4y5z6a7b8c9",
+        "name": "Écriture de vœux de renouvellement",
+        "description": "Rédigez de nouveaux vœux personnalisés pour célébrer votre relation actuelle. Exprimez vos engagements et promesses futures dans des mots sincères et touchants qui reflètent votre évolution."
+      },
+      {
+        "id": "y5z6a7b8c9d0",
+        "name": "Partage de listes de souhaits",
+        "description": "Créez et échangez des listes de désirs personnels et communs pour mieux vous comprendre. Explorez vos aspirations futures et planifiez ensemble la réalisation de vos rêves partagés."
+      },
+      {
+        "id": "z6a7b8c9d0e1",
+        "name": "Création d'un contrat d'amour",
+        "description": "Rédigez un accord personnalisé définissant vos engagements mutuels et attentes relationnelles. Établissez des règles bienveillantes qui renforcent votre complicité et votre respect mutuel."
+      },
+      {
+        "id": "a7b8c9d0e1f2",
+        "name": "Échange de promesses quotidiennes",
+        "description": "Partagez chaque jour une promesse ou engagement personnel pour maintenir la connexion. Créez un rituel quotidien qui renforce votre lien et démontre votre attention constante."
+      },
+      {
+        "id": "b8c9d0e1f2g3",
+        "name": "Partage de rêves érotiques",
+        "description": "Discutez ouvertement de vos fantasmes et désirs intimes dans un cadre respectueux. Explorez votre intimité en partageant vos rêves érotiques pour approfondir votre complicité sensuelle."
+      },
+      {
+        "id": "c9d0e1f2g3h4",
+        "name": "Discussion sur vos limites",
+        "description": "Communiquez clairement sur vos limites personnelles et zones de confort respectif. Établissez un dialogue ouvert sur vos besoins et frontières pour maintenir une relation saine."
+      },
+      {
+        "id": "d0e1f2g3h4i5",
+        "name": "Création d'un calendrier intime",
+        "description": "Planifiez ensemble des moments intimes spéciaux et des activités romantiques régulières. Organisez votre vie de couple en anticipant des occasions privilégiées pour renforcer votre intimité."
+      }
+    ]
+  },
+  "sensorielles": {
+    "name": "Sensorielles",
+    "activities": [
+      {
+        "id": "f8d6a4b2c3e1f7g9h5i2j8k4l6m3n9o1p7q5r8s2t4u6v3w9x1y5z7",
+        "name": "Jeu des 5 sens",
+        "description": "Exploration mutuelle des cinq sens à travers diverses expériences tactiles, gustatives, olfactives, visuelles et auditives pour renforcer l'intimité et la connexion sensorielle entre partenaires."
+      },
+      {
+        "id": "a2b8c4d6e1f9g3h7i5j2k8l4m6n1o9p3q7r5s2t8u4v6w1x9y3z7",
+        "name": "Exploration tactile aveugle",
+        "description": "Découverte des textures, formes et sensations par le toucher uniquement, les yeux bandés, pour développer la sensibilité tactile et créer une expérience sensorielle intense et nouvelle."
+      },
+      {
+        "id": "c3d9e5f1g7h2i8j4k6l3m9n5o1p7q2r8s4t6u3v9w5x1y7z2",
+        "name": "Jeu d'odeurs et parfums",
+        "description": "Identification et appréciation de différentes fragrances et arômes pour stimuler l'odorat et créer des associations positives, favorisant la détente et l'éveil des sens ensemble."
+      },
+      {
+        "id": "e4f1g8h6i2j9k5l7m3n1o8p4q6r2s9t5u7v3w1x8y4z6",
+        "name": "Dégustation les yeux fermés",
+        "description": "Expérience gustative à l'aveugle permettant de redécouvrir les saveurs, textures et températures des aliments tout en développant la confiance mutuelle et l'attention aux détails sensoriels."
+      },
+      {
+        "id": "g5h2i9j7k3l1m8n4o6p2q9r5s7t3u1v8w4x6y2z9",
+        "name": "Écoute de sons de la nature",
+        "description": "Immersion auditive dans les bruits naturels pour favoriser la relaxation, la méditation et la connexion avec l'environnement, créant un moment de paix et d'harmonie partagée."
+      },
+      {
+        "id": "i6j3k1l9m5n7o3p1q8r4s6t2u9v5w7x3y1z8",
+        "name": "Jeu de textures diverses",
+        "description": "Exploration de matériaux aux textures variées pour stimuler le sens du toucher, développer la curiosité tactile et créer des expériences sensorielles nouvelles et enrichissantes ensemble."
+      },
+      {
+        "id": "k7l4m2n1o9p6q3r1s8t5u7v2w9x4y6z3",
+        "name": "Exploration de températures",
+        "description": "Expérimentation avec différentes températures pour éveiller les sensations thermiques, créer des contrastes intéressants et développer une nouvelle conscience corporelle et sensorielle mutuelle."
+      },
+      {
+        "id": "m8n5o3p2q1r9s6t4u2v1w8x5y7z4",
+        "name": "Jeu d'équilibre à deux",
+        "description": "Exercices d'équilibre en duo pour développer la coordination, la confiance mutuelle et la proprioception tout en créant une expérience ludique et connectée physiquement."
+      },
+      {
+        "id": "o9p6q4r3s2t1u9v7w5x3y2z1",
+        "name": "Massage avec objets inattendus",
+        "description": "Utilisation d'objets variés et surprenants pour créer des sensations tactiles nouvelles lors de massages, stimulant la créativité et l'exploration sensorielle dans l'intimité du couple."
+      },
+      {
+        "id": "q1r8s6t4u3v2w1x9y7z5",
+        "name": "Exploration de saveurs",
+        "description": "Découverte méthodique de goûts nouveaux et variés pour élargir les horizons gustatifs, partager des expériences culinaires et développer une appréciation commune des plaisirs de la table."
+      }
+    ]
+  },
+  "ludiques_intimes": {
+    "name": "ludiques intimes",
+    "activities": [
+      {
+        "id": "s2t1u9v8w6x4y3z2a1b9c7d5e4f3g2h1",
+        "name": "Jeu de la bouteille modifié",
+        "description": "Version personnalisée du jeu classique adaptée aux couples, incorporant des défis romantiques et intimes pour créer des moments de complicité et de découverte mutuelle amusante."
+      },
+      {
+        "id": "u3v2w1x9y8z7a6b5c4d3e2f1g9h8i7j6k5l4m3n2o1",
+        "name": "Cartes de défis amoureux",
+        "description": "Jeu de cartes personnalisées contenant des défis romantiques et tendres pour pimenter la relation, encourager l'expression des sentiments et créer des moments de surprise et d'amusement."
+      },
+      {
+        "id": "w4x3y2z1a9b8c7d6e5f4g3h2i1j9k8l7m6n5o4p3q2r1",
+        "name": "Jeu de dés érotiques",
+        "description": "Utilisation de dés spéciaux pour déterminer des actions romantiques et sensuelles, ajoutant un élément de hasard et de surprise dans l'intimité tout en maintenant le jeu et l'amusement."
+      },
+      {
+        "id": "y5z4a3b2c1d9e8f7g6h5i4j3k2l1m9n8o7p6q5r4s3t2u1",
+        "name": "Création d'un jeu personnel",
+        "description": "Conception d'un jeu unique basé sur les préférences et l'histoire du couple, favorisant la créativité collaborative et la personnalisation de l'expérience ludique et romantique partagée."
+      },
+      {
+        "id": "a6b5c4d3e2f1g9h8i7j6k5l4m3n2o1p9q8r7s6t5u4v3w2x1",
+        "name": "Chasse au trésor intime",
+        "description": "Organisation d'une chasse au trésor avec des indices personnalisés et des récompenses romantiques, créant une aventure ludique et interactive qui renforce la complicité et l'anticipation mutuelle."
+      },
+      {
+        "id": "c7d6e5f4g3h2i1j9k8l7m6n5o4p3q2r1s9t8u7v6w5x4y3z2",
+        "name": "Jeu de mémoire sensuel",
+        "description": "Test de mémorisation basé sur des souvenirs intimes et romantiques du couple, renforçant les liens émotionnels tout en créant un moment de nostalgie et de redécouverte mutuelle."
+      },
+      {
+        "id": "e8f7g6h5i4j3k2l1m9n8o7p6q5r4s3t2u1v9w8x7y6z5",
+        "name": "Défis de couple",
+        "description": "Série de défis amusants et romantiques conçus pour tester la complicité, encourager la communication et créer des moments de rire et de connexion profonde entre les partenaires."
+      },
+      {
+        "id": "g9h8i7j6k5l4m3n2o1p9q8r7s6t5u4v3w2x1y9z8",
+        "name": "Jeu de vérité ou défi",
+        "description": "Version adulte du jeu classique adaptée aux couples, alternant entre révélations personnelles et défis romantiques pour approfondir la connaissance mutuelle et créer de l'intimité."
+      },
+      {
+        "id": "i1j9k8l7m6n5o4p3q2r1s9t8u7v6w5x4y3z2a1b9c8d7e6f5",
+        "name": "Création d'un quiz personnel",
+        "description": "Élaboration d'un questionnaire sur mesure basé sur la relation du couple, testant la connaissance mutuelle tout en créant des occasions de dialogue et de découverte surprenante."
+      },
+      {
+        "id": "k2l1m9n8o7p6q5r4s3t2u1v9w8x7y6z5a4b3c2d1e9f8g7h6i5",
+        "name": "Jeu de mimes sensuels",
+        "description": "Expression corporelle non-verbale avec des thèmes romantiques et sensuels, développant la communication gestuelle et créant des moments de complicité amusante et de connexion physique subtile."
+      }
+    ]
+  },
+  "wellbeing": {
+    "name": "Bien être",
+    "activities": [
+      {
+        "id": "m3n2o1p9q8r7s6t5u4v3w2x1y9z8a7b6c5d4e3f2g1h9i8j7k6l5",
+        "name": "Séance de reiki mutuel",
+        "description": "Pratique énergétique partagée visant à équilibrer les chakras et favoriser le bien-être physique et spirituel, créant une connexion profonde et une harmonie énergétique entre les partenaires."
+      },
+      {
+        "id": "o4p3q2r1s9t8u7v6w5x4y3z2a1b9c8d7e6f5g4h3i2j1k9l8m7n6o5",
+        "name": "Massage ayurvédique",
+        "description": "Technique de massage traditionnelle indienne utilisant des huiles spécifiques et des mouvements thérapeutiques pour détendre le corps, apaiser l'esprit et renforcer l'intimité du couple."
+      },
+      {
+        "id": "q5r4s3t2u1v9w8x7y6z5a4b3c2d1e9f8g7h6i5j4k3l2m1n9o8p7q6r5",
+        "name": "Pratique de la pleine conscience",
+        "description": "Méditation de mindfulness pratiquée ensemble pour développer la présence au moment présent, réduire le stress et approfondir la connexion émotionnelle et spirituelle mutuelle."
+      },
+      {
+        "id": "s6t5u4v3w2x1y9z8a7b6c5d4e3f2g1h9i8j7k6l5m4n3o2p1q9r8s7t6u5",
+        "name": "Exercices de Kegel ensemble",
+        "description": "Renforcement musculaire du plancher pelvien pratiqué en duo pour améliorer la santé intime, développer la conscience corporelle et créer une expérience de bien-être partagée."
+      },
+      {
+        "id": "u7v6w5x4y3z2a1b9c8d7e6f5g4h3i2j1k9l8m7n6o5p4q3r2s1t9u8v7w6x5",
+        "name": "Séance de kinésiologie",
+        "description": "Pratique thérapeutique utilisant des tests musculaires pour identifier les déséquilibres énergétiques et émotionnels, favorisant la guérison holistique et la compréhension mutuelle des besoins corporels."
+      },
+      {
+        "id": "w8x7y6z5a4b3c2d1e9f8g7h6i5j4k3l2m1n9o8p7q6r5s4t3u2v1w9x8y7z6",
+        "name": "Pratique de la respiration holotropique",
+        "description": "Technique de respiration profonde et consciente pour accéder à des états de conscience modifiés, favoriser la libération émotionnelle et créer une expérience spirituelle intense et partagée."
+      },
+      {
+        "id": "y9z8a7b6c5d4e3f2g1h9i8j7k6l5m4n3o2p1q9r8s7t6u5v4w3x2y1z9",
+        "name": "Méditation sur les chakras",
+        "description": "Pratique méditative ciblant les centres énergétiques du corps pour équilibrer les chakras, harmoniser les énergies et créer une connexion spirituelle profonde et régénératrice entre partenaires."
+      },
+      {
+        "id": "a1b9c8d7e6f5g4h3i2j1k9l8m7n6o5p4q3r2s1t9u8v7w6x5y4z3",
+        "name": "Pratique du yoga tantrique",
+        "description": "Forme sacrée de yoga intégrant respiration, mouvement et conscience pour éveiller l'énergie kundalini, approfondir l'intimité spirituelle et créer une union corps-esprit harmonieuse."
+      },
+      {
+        "id": "c2d1e9f8g7h6i5j4k3l2m1n9o8p7q6r5s4t3u2v1w9x8y7z6a5b4c3",
+        "name": "Séance de réflexologie",
+        "description": "Massage thérapeutique des zones réflexes des pieds pour stimuler la circulation, favoriser la relaxation et créer un moment d'intimité et de soin mutuel particulièrement apaisant."
+      },
+      {
+        "id": "e3f2g1h9i8j7k6l5m4n3o2p1q9r8s7t6u5v4w3x2y1z9a8b7c6d5e4f3",
+        "name": "Exercices de lâcher-prise",
+        "description": "Techniques de relaxation et de méditation pour apprendre à relâcher les tensions physiques et mentales, favorisant la détente profonde et la création d'un espace de paix partagé."
+      }
+    ]
+  },
+  "activities_technologiques": {
+    "name": "Technologiques",
+    "activities": [
+      {
+        "id": "g4h3i2j1k9l8m7n6o5p4q3r2s1t9u8v7w6x5y4z3a2b1c9d8e7f6g5h4i3",
+        "name": "Création d'un blog couple",
+        "description": "Projet collaboratif de rédaction d'un blog documentant les expériences, aventures et réflexions du couple, créant un journal numérique partagé et un héritage de souvenirs précieux."
+      },
+      {
+        "id": "i5j4k3l2m1n9o8p7q6r5s4t3u2v1w9x8y7z6a5b4c3d2e1f9g8h7i6j5k4l3",
+        "name": "Séance photo avec smartphone",
+        "description": "Session photographique créative utilisant les téléphones portables pour capturer des moments intimes et artistiques, développant la créativité visuelle et créant des souvenirs durables et personnels."
+      },
+      {
+        "id": "k6l5m4n3o2p1q9r8s7t6u5v4w3x2y1z9a8b7c6d5e4f3g2h1i9j8k7l6m5n4o3",
+        "name": "Enregistrement d'un podcast privé",
+        "description": "Création d'un podcast personnel pour partager des conversations intimes, des réflexions et des histoires du couple, développant l'expression orale et créant un contenu audio unique."
+      },
+      {
+        "id": "m7n6o5p4q3r2s1t9u8v7w6x5y4z3a2b1c9d8e7f6g5h4i3j2k1l9m8n7o6p5q4",
+        "name": "Création d'une vidéo souvenir",
+        "description": "Montage vidéo collaboratif compilant les moments marquants de la relation, créant un film personnel et émotionnel qui célèbre l'histoire d'amour et les expériences partagées du couple."
+      },
+      {
+        "id": "o8p7q6r5s4t3u2v1w9x8y7z6a5b4c3d2e1f9g8h7i6j5k4l3m2n1o9p8q7r6s5",
+        "name": "Jeu vidéo coopératif",
+        "description": "Exploration de jeux vidéo nécessitant la collaboration et la stratégie commune, renforçant l'esprit d'équipe tout en partageant des moments de détente et d'amusement dans l'univers numérique."
+      },
+      {
+        "id": "q9r8s7t6u5v4w3x2y1z9a8b7c6d5e4f3g2h1i9j8k7l6m5n4o3p2q1r9s8t7u6",
+        "name": "Exploration d'applications de couple",
+        "description": "Découverte et test d'applications mobiles dédiées aux relations amoureuses, explorant les outils technologiques pour améliorer la communication et renforcer les liens du couple."
+      },
+      {
+        "id": "s1t9u8v7w6x5y4z3a2b1c9d8e7f6g5h4i3j2k1l9m8n7o6p5q4r3s2t1u9v8w7",
+        "name": "Création d'un calendrier photo",
+        "description": "Conception d'un calendrier personnalisé utilisant les photos du couple, créant un projet artistique et pratique qui célèbre les souvenirs tout en décorant l'espace de vie commun."
+      },
+      {
+        "id": "u2v1w9x8y7z6a5b4c3d2e1f9g8h7i6j5k4l3m2n1o9p8q7r6s5t4u3v2w1x9y8",
+        "name": "Visioconférence avec des amis",
+        "description": "Organisation d'appels vidéo avec des proches pour maintenir les liens sociaux, partager des moments conviviaux et créer des souvenirs collectifs malgré la distance physique."
+      },
+      {
+        "id": "w3x2y1z9a8b7c6d5e4f3g2h1i9j8k7l6m5n4o3p2q1r9s8t7u6v5w4x3y2z1",
+        "name": "Cours en ligne ensemble",
+        "description": "Participation conjointe à des formations numériques pour apprendre de nouvelles compétences, partager des connaissances et créer un projet éducatif commun enrichissant et motivant."
+      },
+      {
+        "id": "y4z3a2b1c9d8e7f6g5h4i3j2k1l9m8n7o6p5q4r3s2t1u9v8w7x6y5z4a3b2c1",
+        "name": "Création d'une playlist Spotify",
+        "description": "Compilation collaborative d'une sélection musicale reflétant les goûts du couple, créant une bande sonore personnelle de la relation et un support musical pour différentes occasions."
+      }
+    ]
+  },
+  "saisonnal": {
+    "name": "Saisonnières",
+    "activities": [
+      {
+        "id": "a5b4c3d2e1f9g8h7i6j5k4l3m2n1o9p8q7r6s5t4u3v2w1x9y8z7a6b5c4d3e2",
+        "name": "Observation des étoiles (fenêtre/balcon)",
+        "description": "Contemplation nocturne du ciel étoilé depuis le domicile, créant un moment romantique et contemplatif pour admirer la beauté de l'univers et partager des réflexions sur l'infini."
+      },
+      {
+        "id": "c6d5e4f3g2h1i9j8k7l6m5n4o3p2q1r9s8t7u6v5w4x3y2z1a9b8c7d6e5f4g3",
+        "name": "Création d'un jardin d'herbes aromatiques",
+        "description": "Projet de jardinage intérieur ou extérieur pour cultiver des plantes aromatiques, créant un espace vert commun tout en produisant des ingrédients frais pour la cuisine du couple."
+      },
+      {
+        "id": "e7f6g5h4i3j2k1l9m8n7o6p5q4r3s2t1u9v8w7x6y5z4a3b2c1d9e8f7g6h5i4",
+        "name": "Décoration selon la saison",
+        "description": "Adaptation périodique de la décoration intérieure aux saisons, créant une ambiance renouvelée et harmonieuse avec les cycles naturels tout en exprimant la créativité commune du couple."
+      },
+      {
+        "id": "g8h7i6j5k4l3m2n1o9p8q7r6s5t4u3v2w1x9y8z7a6b5c4d3e2f1g9h8i7j6k5",
+        "name": "Planification de vacances",
+        "description": "Élaboration détaillée d'un projet de voyage futur, explorant les destinations, organisant l'itinéraire et créant l'anticipation d'une aventure commune excitante et enrichissante."
+      },
+      {
+        "id": "i9j8k7l6m5n4o3p2q1r9s8t7u6v5w4x3y2z1a9b8c7d6e5f4g3h2i1j9k8l7m6",
+        "name": "Création d'un album photo saisonnier",
+        "description": "Compilation photographique organisée par saisons pour documenter l'évolution de la relation à travers les cycles naturels, créant un héritage visuel des moments partagés."
+      },
+      {
+        "id": "k1l9m8n7o6p5q4r3s2t1u9v8w7x6y5z4a3b2c1d9e8f7g6h5i4j3k2l1m9n8o7",
+        "name": "Préparation d'une surprise pour l'autre",
+        "description": "Organisation secrète d'une attention particulière pour surprendre le partenaire, développant la créativité et l'attention aux détails tout en renforçant l'expression de l'amour et de l'affection."
+      },
+      {
+        "id": "m2n1o9p8q7r6s5t4u3v2w1x9y8z7a6b5c4d3e2f1g9h8i7j6k5l4m3n2o1p9q8",
+        "name": "Révision et planification d'objectifs",
+        "description": "Évaluation périodique des accomplissements et définition de nouveaux objectifs communs, favorisant la croissance personnelle et relationnelle tout en maintenant une vision partagée de l'avenir."
+      },
+      {
+        "id": "o3p2q1r9s8t7u6v5w4x3y2z1a9b8c7d6e5f4g3h2i1j9k8l7m6n5o4p3q2r1s9",
+        "name": "Création d'un rituel saisonnier",
+        "description": "Établissement d'une tradition personnelle marquant les changements de saison, créant des moments de célébration et de connexion réguliers qui rythment la vie du couple."
+      },
+      {
+        "id": "q4r3s2t1u9v8w7x6y5z4a3b2c1d9e8f7g6h5i4j3k2l1m9n8o7p6q5r4s3t2u1",
+        "name": "Célébration d'une date anniversaire",
+        "description": "Commémoration créative d'une date importante pour le couple, organisant une célébration personnalisée qui honore les souvenirs partagés et renforce l'importance des jalons relationnels."
+      },
+      {
+        "id": "s5t4u3v2w1x9y8z7a6b5c4d3e2f1g9h8i7j6k5l4m3n2o1p9q8r7s6t5u4v3w2",
+        "name": "Planification de la prochaine aventure",
+        "description": "Conception d'un projet d'activité ou d'expérience future excitante, stimulant l'imagination et créant une perspective commune motivante qui nourrit les rêves et ambitions du couple."
+      }
+    ]
+  }
+}

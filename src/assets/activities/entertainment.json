@@ -1,0 +1,167 @@
+{
+  "jeux_et_defis": {
+    "name": "Jeux et Défis",
+    "activities": [
+      {
+        "id": "a1b2c3d4e5f6",
+        "name": "Jeu de société à deux",
+        "description": "Choisissez un jeu de société adapté à deux joueurs pour passer un moment ludique et complice ensemble dans une atmosphère détendue."
+      },
+      {
+        "id": "b2c3d4e5f6a1",
+        "name": "Puzzle ensemble",
+        "description": "Assemblez un puzzle à deux pour développer votre patience et votre collaboration tout en créant quelque chose de beau ensemble."
+      },
+      {
+        "id": "c3d4e5f6a1b2",
+        "name": "Jeu de cartes classique",
+        "description": "Redécouvrez les plaisirs simples avec un jeu de cartes traditionnel qui favorise la stratégie et les échanges amusants entre partenaires."
+      },
+      {
+        "id": "d4e5f6a1b2c3",
+        "name": "Charades romantiques",
+        "description": "Jouez aux charades avec des mots liés à votre relation, vos souvenirs communs ou des thèmes romantiques pour des éclats de rire."
+      },
+      {
+        "id": "e5f6a1b2c3d4",
+        "name": "Quiz sur votre relation",
+        "description": "Testez vos connaissances mutuelles avec un quiz personnalisé sur votre histoire, vos goûts et vos rêves partagés ou individuels."
+      },
+      {
+        "id": "f6a1b2c3d4e5",
+        "name": "Jeu du \"Tu préfères\"",
+        "description": "Explorez vos préférences et découvrez de nouveaux aspects de votre personnalité mutuelle avec ce jeu de choix amusant et révélateur."
+      },
+      {
+        "id": "a1b2c3d4e5f7",
+        "name": "Devinettes et énigmes",
+        "description": "Stimulez votre intellect avec des devinettes et énigmes qui vous feront réfléchir ensemble et célébrer vos victoires intellectuelles communes."
+      },
+      {
+        "id": "b2c3d4e5f7a1",
+        "name": "Jeu de mémoire sur vos souvenirs",
+        "description": "Créez un jeu de mémoire basé sur vos photos et souvenirs communs pour raviver de beaux moments passés ensemble."
+      },
+      {
+        "id": "c3d4e5f7a1b2",
+        "name": "Bataille de pouces",
+        "description": "Retrouvez votre âme d'enfant avec cette activité simple et amusante qui peut se transformer en moment de complicité et de rires."
+      },
+      {
+        "id": "d4e5f7a1b2c3",
+        "name": "Jeu de construction (Lego, Jenga)",
+        "description": "Construisez quelque chose ensemble ou testez votre adresse avec des jeux de construction qui demandent concentration et délicatesse partagées."
+      }
+    ]
+  },
+  "activities_culturelles": {
+    "name": "Activités Culturelles",
+    "activities": [
+      {
+        "id": "e5f7a1b2c3d4",
+        "name": "Visite virtuelle d'un musée",
+        "description": "Explorez ensemble les plus grands musées du monde depuis votre canapé grâce aux visites virtuelles pour enrichir votre culture commune."
+      },
+      {
+        "id": "f7a1b2c3d4e5",
+        "name": "Lecture d'un livre ensemble",
+        "description": "Partagez la lecture d'un livre en alternant les chapitres ou en lisant simultanément pour ensuite échanger vos impressions et analyses."
+      },
+      {
+        "id": "a1b2c3d4e5f8",
+        "name": "Écoute d'un album musical complet",
+        "description": "Redécouvrez le plaisir d'écouter un album dans son intégralité en vous concentrant sur les nuances musicales et les émotions transmises."
+      },
+      {
+        "id": "b2c3d4e5f8a1",
+        "name": "Visionnage de courts métrages",
+        "description": "Découvrez l'art du court métrage en explorant différents genres et styles cinématographiques pour des discussions enrichissantes sur l'art visuel."
+      },
+      {
+        "id": "c3d4e5f8a1b2",
+        "name": "Apprentissage de mots dans une langue étrangère",
+        "description": "Apprenez ensemble quelques mots ou expressions dans une langue qui vous fascine pour enrichir votre vocabulaire et votre culture linguistique."
+      },
+      {
+        "id": "d4e5f8a1b2c3",
+        "name": "Dégustation de thés ou cafés",
+        "description": "Organisez une dégustation de différents thés ou cafés pour éveiller vos papilles et découvrir de nouvelles saveurs ensemble avec attention."
+      },
+      {
+        "id": "e5f8a1b2c3d4",
+        "name": "Écoute d'une pièce radiophonique",
+        "description": "Plongez dans l'univers de la fiction audio avec une pièce radiophonique captivante qui stimulera votre imagination et votre écoute active."
+      },
+      {
+        "id": "f8a1b2c3d4e5",
+        "name": "Découverte d'un artiste inconnu",
+        "description": "Explorez le travail d'un artiste que vous ne connaissez pas encore pour élargir vos horizons artistiques et partager de nouvelles émotions esthétiques."
+      },
+      {
+        "id": "a1b2c3d4e5f9",
+        "name": "Lecture de poésie à voix haute",
+        "description": "Lisez de la poésie à tour de rôle pour apprécier la beauté des mots, le rythme des vers et créer une atmosphère intime."
+      },
+      {
+        "id": "b2c3d4e5f9a1",
+        "name": "Exploration d'une culture différente",
+        "description": "Choisissez une culture que vous connaissez peu et explorez ses traditions, sa cuisine, son art pour voyager intellectuellement sans bouger de chez vous."
+      }
+    ]
+  },
+  "activities_apprentissage": {
+    "name": "Activités d'Apprentissage",
+    "activities": [
+      {
+        "id": "c3d4e5f9a1b2",
+        "name": "Tuto de danse lente",
+        "description": "Apprenez ensemble les pas de base de la danse lente pour créer des moments romantiques et développer votre complicité physique harmonieuse."
+      },
+      {
+        "id": "d4e5f9a1b2c3",
+        "name": "Cours de cuisine simple",
+        "description": "Préparez ensemble un plat simple en suivant une recette détaillée pour partager les plaisirs culinaires et créer de savoureux souvenirs communs."
+      },
+      {
+        "id": "e5f9a1b2c3d4",
+        "name": "Apprentissage d'un nœud de cravate",
+        "description": "Maîtrisez ensemble l'art de faire un nœud de cravate élégant, compétence pratique qui peut s'avérer utile dans diverses occasions formelles."
+      },
+      {
+        "id": "f9a1b2c3d4e5",
+        "name": "Initiation à la calligraphie",
+        "description": "Découvrez l'art de la belle écriture en vous initiant aux techniques de calligraphie pour créer de beaux textes décoratifs ensemble."
+      },
+      {
+        "id": "a1b2c3d4e5f0",
+        "name": "Leçon de massage thérapeutique",
+        "description": "Apprenez les techniques de base du massage thérapeutique pour vous détendre mutuellement et créer des moments de bien-être partagé réguliers."
+      },
+      {
+        "id": "b2c3d4e5f0a1",
+        "name": "Apprentissage d'une chanson ensemble",
+        "description": "Choisissez une chanson que vous aimez tous les deux et apprenez-la par cœur pour pouvoir la chanter ensemble lors de moments spéciaux."
+      },
+      {
+        "id": "c3d4e5f0a1b2",
+        "name": "Cours d'origami avancé",
+        "description": "Perfectionnez votre technique d'origami avec des modèles plus complexes qui demandent patience, précision et concentration pour créer de vraies œuvres d'art."
+      },
+      {
+        "id": "d4e5f0a1b2c3",
+        "name": "Initiation à la magie simple",
+        "description": "Apprenez quelques tours de magie simples pour surprendre vos proches et développer votre dextérité tout en vous amusant avec l'art de l'illusion."
+      },
+      {
+        "id": "e5f0a1b2c3d4",
+        "name": "Apprentissage de techniques de relaxation",
+        "description": "Découvrez ensemble différentes méthodes de relaxation comme la respiration profonde ou la méditation pour améliorer votre bien-être quotidien mutuel."
+      },
+      {
+        "id": "f0a1b2c3d4e5",
+        "name": "Cours de premiers secours basique",
+        "description": "Apprenez les gestes de premiers secours essentiels pour être préparés en cas d'urgence et développer des compétences utiles pour votre sécurité."
+      }
+    ]
+  }
+}

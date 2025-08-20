@@ -1,14 +1,19 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
+import { FcIdea } from 'react-icons/fc'
+import { FcLike } from 'react-icons/fc'
+import { FcUndo } from 'react-icons/fc'
+import { FcSettings } from 'react-icons/fc'
+import { FcFlashOn } from 'react-icons/fc'
+import { FcVip } from 'react-icons/fc'
+
 import './Home.css'
-import CardList from './CardList'
-import {
-  allActivities,
-  randomActivityFromCategory,
-  type Activity,
-} from './activities'
+import CardList from '../components/CardList'
+import { getAllCategoryNames, randomActivityFromCategory } from '../activities'
+import { type Activity } from '../types'
 
 function Home() {
   const [activities, setActivities] = useState<Activity[]>([])
+  const categories = useMemo(() => getAllCategoryNames(), [])
 
   const selectActivity = () => {
     const newActivities = [...activities]
@@ -17,6 +22,12 @@ function Home() {
       activities.length
     )
 
+    setActivities(newActivities)
+  }
+
+  const replaceActivity = (index: number) => {
+    const newActivities = [...activities]
+    newActivities[index] = randomActivityFromCategory(index)
     setActivities(newActivities)
   }
 
@@ -35,15 +46,15 @@ function Home() {
   const getActionContent = () => {
     switch (activities.length) {
       case 0:
-        return '✨'
+        return <FcIdea />
       case 1:
-        return '🧨'
+        return <FcFlashOn />
       case 2:
-        return '❤️‍🔥'
+        return <FcLike />
       case 3:
-        return '🔥'
+        return <FcVip />
       default:
-        return '↪️'
+        return <FcUndo />
     }
   }
 
@@ -52,7 +63,7 @@ function Home() {
       <header>
         <div className="navigation">
           <a className="navigation-link" href="/settings">
-            ⚙️
+            <FcSettings />
           </a>
         </div>
         <h1 className="home">Cupion</h1>
@@ -62,8 +73,9 @@ function Home() {
       </header>
       <div className="center-container">
         <CardList
-          categories={Object.values(allActivities.categories)}
+          categories={categories}
           selectedActivities={activities}
+          retry={replaceActivity}
         />
         <div className="control">
           <button onClick={startNightActivities}>{getActionContent()}</button>

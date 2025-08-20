@@ -1,0 +1,167 @@
+{
+  "connexion_emotionnelle_profonde": {
+    "name": "Connexion Émotionnelle Profonde",
+    "activities": [
+      {
+        "id": "7d4f2e8a9b3c1d5f",
+        "name": "Exercice de regard dans les yeux (5 min)",
+        "description": "Regardez-vous intensément dans les yeux pendant 5 minutes sans parler, créant une connexion profonde et intime qui renforce votre lien émotionnel."
+      },
+      {
+        "id": "a8c3e7f2d9b4e1c6",
+        "name": "Partage de peurs et vulnérabilités",
+        "description": "Partagez vos peurs les plus profondes et vos vulnérabilités dans un espace sécurisé, renforçant la confiance et l'intimité émotionnelle."
+      },
+      {
+        "id": "f5b8d2c7e3a9f1d4",
+        "name": "Écriture d'une lettre d'amour",
+        "description": "Rédigez une lettre d'amour personnalisée exprimant vos sentiments les plus profonds, créant un souvenir précieux et touchant pour votre partenaire."
+      },
+      {
+        "id": "c9e4f7a2d8b5c3e1",
+        "name": "Jeu des \"36 questions pour tomber amoureux\"",
+        "description": "Explorez 36 questions scientifiquement conçues pour approfondir l'intimité émotionnelle et potentiellement raviver ou renforcer les sentiments amoureux entre partenaires."
+      },
+      {
+        "id": "b7f3e8d1c4a9e2f5",
+        "name": "Partage de fantasmes non-sexuels",
+        "description": "Partagez vos rêves, aspirations et fantasmes de vie non-sexuels, explorant ensemble vos désirs profonds et vos visions d'avenir."
+      },
+      {
+        "id": "e6a9f4b7c2d8e5f1",
+        "name": "Discussion sur vos langages d'amour",
+        "description": "Explorez et identifiez vos langages d'amour respectifs pour mieux comprendre comment donner et recevoir l'affection de manière significative."
+      },
+      {
+        "id": "d8f2c5e9a3b7f4c1",
+        "name": "Exercice de pardon et réconciliation",
+        "description": "Pratiquez le pardon mutuel et la réconciliation pour résoudre les conflits passés et renforcer votre lien émotionnel et spirituel."
+      },
+      {
+        "id": "a4e7f9b2c6d3e8f5",
+        "name": "Partage de vos plus beaux souvenirs ensemble",
+        "description": "Remémorez-vous et partagez vos moments les plus précieux et significatifs vécus ensemble, ravivant la joie et la connexion émotionnelle."
+      },
+      {
+        "id": "f1c8e4b9d2a7f3e6",
+        "name": "Création d'un tableau de vision couple",
+        "description": "Créez ensemble un tableau visuel représentant vos objectifs, rêves et aspirations communes pour votre avenir en tant que couple."
+      },
+      {
+        "id": "c5f9e2a8d4b7c1f3",
+        "name": "Méditation de l'amour bienveillant",
+        "description": "Pratiquez ensemble une méditation focalisée sur l'amour bienveillant, cultivant la compassion et l'amour inconditionnel l'un envers l'autre."
+      }
+    ]
+  },
+  "intimite_physique_douce": {
+    "name": "Intimité Physique Douce",
+    "activities": [
+      {
+        "id": "e8d3f7a4c9b2e5f1",
+        "name": "Massage sensuel non-sexuel",
+        "description": "Offrez-vous mutuellement un massage relaxant et sensuel sans intention sexuelle, focalisé sur la détente et la connexion physique tendre."
+      },
+      {
+        "id": "b9f4c6e1d7a3f8b2",
+        "name": "Caresses douces et attentionnées",
+        "description": "Échangez des caresses délicates et attentionnées sur tout le corps, explorant le toucher tendre et la sensualité douce."
+      },
+      {
+        "id": "f2a7e9c4d8b5f1c3",
+        "name": "Brossage mutuel des cheveux",
+        "description": "Brossez délicatement les cheveux de votre partenaire avec attention et tendresse, créant une intimité apaisante et relaxante."
+      },
+      {
+        "id": "d6c9f3e8a2b7d4f1",
+        "name": "Massage du cuir chevelu",
+        "description": "Massez doucement le cuir chevelu de votre partenaire avec vos doigts, procurant une relaxation profonde et une sensation apaisante."
+      },
+      {
+        "id": "a3f8e4c7b9d2a5f6",
+        "name": "Caresses du visage délicates",
+        "description": "Caressez tendrement le visage de votre partenaire avec vos mains, explorant chaque contour avec douceur et affection."
+      },
+      {
+        "id": "c1e9f5b8d3a7c4f2",
+        "name": "Étreintes prolongées",
+        "description": "Tenez-vous dans les bras l'un de l'autre pendant plusieurs minutes, permettant une connexion physique profonde et réconfortante."
+      },
+      {
+        "id": "f7b4c8e2d9a3f6c1",
+        "name": "Massage des mains détaillé",
+        "description": "Massez méticuleusement les mains de votre partenaire, incluant les doigts, paumes et poignets, avec attention et délicatesse."
+      },
+      {
+        "id": "e5d8f2a9c4b7e3f1",
+        "name": "Caresses du dos apaisantes",
+        "description": "Caressez le dos de votre partenaire avec des mouvements lents et apaisants, procurant relaxation et connexion physique douce."
+      },
+      {
+        "id": "b8f1c5e9d2a6f4c3",
+        "name": "Jeu de plumes sur la peau",
+        "description": "Utilisez des plumes douces pour caresser délicatement la peau de votre partenaire, créant des sensations subtiles et agréables."
+      },
+      {
+        "id": "a2c7f9e4d8b3a5f1",
+        "name": "Massage aux huiles chaudes",
+        "description": "Utilisez des huiles chaudes pour masser votre partenaire, combinant chaleur réconfortante et toucher sensuel pour une expérience relaxante."
+      }
+    ]
+  },
+  "activities_sensuelles": {
+    "name": "Activités Sensuelles",
+    "activities": [
+      {
+        "id": "f9c4e7b2d8a5f3c1",
+        "name": "Dégustation à l'aveugle avec fruits",
+        "description": "Nourrissez votre partenaire avec différents fruits les yeux bandés, explorant les saveurs et textures ensemble de manière sensuelle."
+      },
+      {
+        "id": "c6f8e3a9d4b7c2f5",
+        "name": "Massage avec glaçons",
+        "description": "Utilisez des glaçons pour masser délicatement la peau de votre partenaire, créant des sensations de froid contrastées et stimulantes."
+      },
+      {
+        "id": "e4a8f5c2d9b3e7f1",
+        "name": "Échange de baisers créatifs",
+        "description": "Explorez différents types de baisers créatifs et playful, découvrant de nouvelles façons d'exprimer votre affection et passion."
+      },
+      {
+        "id": "d7f2c9e4a8b5d1f3",
+        "name": "Jeu de température (chaud/froid)",
+        "description": "Alternez entre sensations chaudes et froides sur la peau de votre partenaire, créant un contraste stimulant et sensuel."
+      },
+      {
+        "id": "b5e9f3c7d2a8b4f1",
+        "name": "Caresses avec différentes textures",
+        "description": "Utilisez divers matériaux aux textures variées pour caresser votre partenaire, explorant les sensations tactiles et la sensualité."
+      },
+      {
+        "id": "f1c8e5a9d3b7f2c4",
+        "name": "Massage avec chocolat fondu",
+        "description": "Utilisez du chocolat fondu tiède pour masser votre partenaire, combinant gourmandise et sensualité dans une expérience délicieuse."
+      },
+      {
+        "id": "a8d4f7c2e9b5a3f1",
+        "name": "Jeu de souffle sur la peau",
+        "description": "Soufflez délicatement sur différentes parties du corps de votre partenaire, créant des sensations subtiles et érotiques."
+      },
+      {
+        "id": "c3f9e6d1a7c8f4b2",
+        "name": "Caresses guidées par l'autre",
+        "description": "Laissez votre partenaire guider vos mains pour vous montrer comment il aime être caressé, explorant ses préférences sensuelles."
+      },
+      {
+        "id": "e7b3f8c5d9a2e6f1",
+        "name": "Exploration sensorielle douce",
+        "description": "Explorez ensemble tous vos sens de manière douce et sensuelle, découvrant de nouvelles sensations et plaisirs partagés."
+      },
+      {
+        "id": "f4c1e8b9d5a7f3c2",
+        "name": "Massage avec plumes",
+        "description": "Utilisez des plumes de différentes tailles et textures pour masser délicatement votre partenaire, créant des sensations douces et agréables."
+      }
+    ]
+  }
+}

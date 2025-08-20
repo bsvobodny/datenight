@@ -1,9 +1,11 @@
-import './settings.css'
+import './Settings.css'
+import { FcUpLeft } from 'react-icons/fc'
+
 import {
-  allActivities,
+  getAllCategories,
   getDisabledActivities,
   storeDisabledActivities,
-} from './activities'
+} from '../activities'
 import { useRef, useState } from 'react'
 
 function Settings() {
@@ -11,6 +13,23 @@ function Settings() {
     getDisabledActivities()
   )
   const detailsRefs = useRef<HTMLDetailsElement[]>([])
+
+  const categories = useRef(getAllCategories())
+
+  // categories.current.map((category) => {
+  //   const toPrint = [];
+  //   toPrint.push(category.name,'\n')
+
+  //   Object.entries(category.subCategories).map(
+  //     ([_, subcat]) => {
+  //       toPrint.push(subcat.name,'\n')
+
+  //       subcat.activities.map((activity) => {
+  //         toPrint.push('- ',activity.name,'\n')
+  //       })
+  //     })
+  //     console.log(toPrint.join(''))
+  //   })
 
   const addToRefs = (el: HTMLDetailsElement | null, index: number) => {
     if (el) {
@@ -47,13 +66,13 @@ function Settings() {
       <header>
         <div className="navigation">
           <a className="navigation-link" href="/">
-            ◀️
+            <FcUpLeft />
           </a>
         </div>
         <h1>Paramètres</h1>
       </header>
       <div className="center-container start">
-        {Object.values(allActivities.categories).map((category) => (
+        {categories.current.map((category) => (
           <div key={category.name}>
             <h2>{category.name}</h2>
             {Object.entries(category.subCategories).map(
