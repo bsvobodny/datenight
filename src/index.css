@@ -51,6 +51,7 @@ header h1.home::after {
   display: grid;
   place-items: center;
   margin: 1rem 0;
+  max-width: calc(100vw - 4rem);
 }
 
 .center-container.start {
@@ -65,8 +66,14 @@ header h1.home::after {
 
 .navigation-link {
   font-size: 2rem;
-  color: var(--foreground);
   text-decoration: none;
+  background: var(--foreground-trans);
+  border-radius: 2rem;
+  min-height: 3.5rem;
+  min-width: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {

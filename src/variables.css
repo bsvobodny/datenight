@@ -2,6 +2,7 @@
   --background-color: hsl(222.2 84% 4.9%);
   --background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --foreground: hsl(210 40% 98%);
+  --foreground-trans: rgba(248, 250, 252, 0.5);
   --accent: #646cff;
   --accent-more: #535bf2;
   --shadow: rgba(0, 0, 0, 0.2);
