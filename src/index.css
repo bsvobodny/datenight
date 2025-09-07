@@ -12,6 +12,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -19,30 +27,22 @@
   text-align: center;
 }
 
+body.no-padding #root {
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 10rem max-content 5rem;
+  grid-template-rows: 10rem auto min-content;
   gap: 0px 0px;
   width: 100%;
-}
-
-header {
-  grid-area: 1 / 1 / 4 / 2;
-  margin-bottom: 2rem;
-}
-
-header h1.home {
-  margin-top: 0;
-}
-
-header h1.home::before,
-header h1.home::after {
-  content: '💕';
-  font-size: 4rem;
-  display: inline-block;
-
-  animation: pulse 4s infinite;
+  min-height: calc(100vh - 4rem);
 }
 
 .center-container {
@@ -58,29 +58,6 @@ header h1.home::after {
   align-items: flex-start;
 }
 
-.navigation {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-}
-
-.navigation-link {
-  font-size: 2rem;
-  text-decoration: none;
-  background: var(--foreground-trans);
-  border-radius: 2rem;
-  min-height: 3.5rem;
-  min-width: 3.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-footer {
-  grid-area: 3 / 1 / 4 / 2;
-  color: var(--ring);
-}
-
 a {
   font-weight: 500;
   color: var(--accent);
@@ -88,19 +65,6 @@ a {
 }
 a:hover {
   color: var(--accent-more);
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 button {
@@ -134,14 +98,4 @@ button:focus-visible {
 
 button:active {
   transform: translateY(0);
-}
-
-@keyframes pulse {
-  0%,
-  100% {
-    transform: scale(0.8);
-  }
-  50% {
-    transform: scale(1.2);
-  }
 }

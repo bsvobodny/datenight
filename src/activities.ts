@@ -109,6 +109,26 @@ export const randomActivityFromCategory = (categoryNumber: number) => {
   return flatActivities[i]
 }
 
+export const shuffleActivities = (activities: Activity[]) => {
+  for (let i = activities.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[activities[i], activities[j]] = [activities[j], activities[i]]
+  }
+  return activities
+}
+
+export const flatActivitiesFromCategoryName = (category: string) => {
+  const categoryData = Object.entries(allActivities.categories).find(
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    ([_key, cat]) => cat.name === category
+  )
+  if (!categoryData) return []
+
+  return Object.values(categoryData[1].subCategories).flatMap(
+    (sub) => sub.activities
+  ) as Activity[]
+}
+
 export const flatActivities = () => {
   return Object.values(allActivities.categories).flatMap((category) =>
     Object.values(category.subCategories).flatMap((sub) => sub.activities)

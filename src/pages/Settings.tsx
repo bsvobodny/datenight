@@ -1,12 +1,11 @@
-import './Settings.css'
-import { FcUpLeft } from 'react-icons/fc'
-
 import {
   getAllCategories,
   getDisabledActivities,
   storeDisabledActivities,
 } from '../activities'
 import { useRef, useState } from 'react'
+import { Header } from '../components/Layout/Header'
+import './Settings.css'
 
 function Settings() {
   const [disabledActivities, setDisabledActivities] = useState<string[]>(
@@ -63,14 +62,11 @@ function Settings() {
 
   return (
     <main className="settings">
-      <header>
-        <div className="navigation">
-          <a className="navigation-link" href="/">
-            <FcUpLeft />
-          </a>
-        </div>
-        <h1>Paramètres</h1>
-      </header>
+      <Header
+        title="Paramètres"
+        subtitle="Désactivez les activités que vous ne souhaitez pas voir apparaître"
+        showTitleDecoration={false}
+      />
       <div className="center-container start">
         {categories.current.map((category) => (
           <div key={category.name}>

@@ -12,39 +12,39 @@
   max-width: inherit;
 }
 
-.section1 {
+.card-list .section1 {
   grid-area: section1;
   border-top-left-radius: 3rem;
   background-color: #27ae60;
 }
 
-.section1:hover {
+.card-list .section1:hover {
   transform: translate(-0.5rem, -0.5rem);
 }
 
-.section2 {
+.card-list .section2 {
   grid-area: section2;
   border-top-right-radius: 3rem;
   background-color: #3498db;
 }
-.section2:hover {
+.card-list .section2:hover {
   transform: translate(0.5rem, -0.5rem);
 }
 
-.section3 {
+.card-list .section3 {
   grid-area: section3;
   border-bottom-left-radius: 3rem;
   background-color: #9b59b6;
 }
-.section3:hover {
+.card-list .section3:hover {
   transform: translate(-0.5rem, 0.5rem);
 }
 
-.section4 {
+.card-list .section4 {
   grid-area: section4;
   border-bottom-right-radius: 3rem;
   background-color: #e91e63;
 }
-.section4:hover {
+.card-list .section4:hover {
   transform: translate(0.5rem, 0.5rem);
 }

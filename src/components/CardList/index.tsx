@@ -1,10 +1,12 @@
-import './style.css'
 import type { Activity } from '../../types'
 import Card from '../Card'
+
+import './style.css'
 
 type Props = {
   categories: string[]
   selectedActivities?: Activity[]
+  // eslint-disable-next-line no-unused-vars
   retry?: (index: number) => void
 }
 
