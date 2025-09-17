@@ -8,7 +8,7 @@ import {
 } from '../components/Quiz/QuizContext'
 import { useEffect, useState } from 'react'
 
-import './quiz.css'
+import './Quiz.css'
 import { Header } from '../components/Layout/Header'
 
 const CoupleQuiz = () => {
