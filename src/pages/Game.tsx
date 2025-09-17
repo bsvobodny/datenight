@@ -7,7 +7,7 @@ import { FcFlashOn } from 'react-icons/fc'
 import { FcVip } from 'react-icons/fc'
 import { TbSwipe } from 'react-icons/tb'
 
-import './game.css'
+import './Game.css'
 import CardList from '../components/CardList'
 import { getAllCategoryNames, randomActivityFromCategory } from '../activities'
 import { type Activity } from '../types'
