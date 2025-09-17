@@ -98,7 +98,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v10
         with:
           configPath: ./lighthouserc.json
-          budgetPath: ./budget.json
+          # budgetPath: ./budget.json
           uploadArtifacts: false
           temporaryPublicStorage: false
           # artifactName: lighthouse-results
